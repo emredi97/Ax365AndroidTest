@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class CustomerList extends AppCompatActivity {
 
-    ArrayList<Customer> Customers;
+    ArrayList<Entity> entities;
     Intent intent;
     ArrayAdapter adapter;
     ArrayList<String> CustomerNames;
@@ -21,15 +21,15 @@ public class CustomerList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer_list);
+        setContentView(R.layout.activity_entity_list);
         intent = getIntent();
-        Bundle tmp=intent.getBundleExtra("JsonObjects");
-        Customers = (ArrayList<Customer>) tmp.getSerializable("JSON");
-        CustomerNames=new ArrayList<String>();
+        Bundle tmp = intent.getBundleExtra("JsonObjects");
+        entities = (ArrayList<Entity>) tmp.getSerializable("JSON");
+        CustomerNames = new ArrayList<String>();
 
 
-        for (int i = 0; i < Customers.size(); i++) {
-            CustomerNames.add(Customers.get(i).getName());
+        for (int i = 0; i < entities.size(); i++) {
+            CustomerNames.add(entities.get(i).getName());
         }
 
         adapter = new ArrayAdapter<String>(this, R.layout.activity_customerlist_textview, CustomerNames);
@@ -44,10 +44,10 @@ public class CustomerList extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent in =new Intent(view.getContext(),EditCustomer.class);
-                Bundle mbundle=new Bundle();
-                mbundle.putSerializable("JSON",Customers.get(i));
-                in.putExtra("JsonObjects",mbundle);
+                Intent in = new Intent(view.getContext(), EditEntity.class);
+                Bundle mbundle = new Bundle();
+                mbundle.putSerializable("JSON", entities.get(i));
+                in.putExtra("JsonObjects", mbundle);
                 startActivity(in);
             }
         });

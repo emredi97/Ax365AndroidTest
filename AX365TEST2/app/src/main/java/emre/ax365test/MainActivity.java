@@ -29,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
     TextView result;
     String bcode;
     JSONArray requestedEntity;
-    ArrayList<Customer> Customers;
+    ArrayList<Entity> entities;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Customers = new ArrayList<Customer>();
+        entities = new ArrayList<Entity>();
         try {
 
             mAuthContext = new AuthenticationContext(MainActivity.this, Constants.AUTHORITY_URL,
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     //LOGIN CLICK
     public void Login(View V) {
       /*  CookieSyncManager.createInstance(MainActivity.this);
-        CookieManager cookieManager = CookieManager.getInstance();
+        CookieManager cookieManager = CookieManager.getInstance();          //Wenn man sich jedesmal anmelden möchte auskommentieren
         cookieManager.removeAllCookie();
         CookieSyncManager.getInstance().sync();
         mAuthContext.getCache().removeAll();*/
@@ -120,9 +120,9 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < requestedEntity.length(); i++) {
             try {
                 JSONObject tmp = requestedEntity.getJSONObject(i);
-                Customer tmpCustomer = new Customer(tmp);
+                Entity tmpEntity = new Entity(tmp);
 
-                Customers.add(tmpCustomer);
+                entities.add(tmpEntity);
 
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent i = new Intent(this, CustomerList.class);
         Bundle mbundle = new Bundle();
-        mbundle.putSerializable("JSON", Customers);
+        mbundle.putSerializable("JSON", entities);
         i.putExtra("JsonObjects", mbundle);
         startActivity(i);
 
