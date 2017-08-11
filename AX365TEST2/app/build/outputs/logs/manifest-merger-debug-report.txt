@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:2:1-43:12
 	package
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:3:5-29
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:5:5-7:41
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\d85fd8d9f3bb02ffb787217f244c6bdda84d8e5b\output\AndroidManifest.xml:20:5-44
@@ -33,51 +33,51 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\emreh_00
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:7:9-38
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:7:9-38
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:6:9-35
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:6:9-35
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:9:5-65
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:9:22-62
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:9:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:10:5-67
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:10:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:11:22-76
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:13:5-15:65
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:13:5-15:65
 	android:value
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:15:9-62
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:15:9-62
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:14:9-54
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:16:5-18:35
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:16:5-18:35
 	android:value
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:18:9-32
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:18:9-32
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:17:9-66
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:17:9-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:20:5-81
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:20:22-78
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:20:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:21:5-75
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:21:5-75
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:21:22-72
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:21:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:22:5-80
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:22:5-80
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:22:22-77
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:22:22-77
 application
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:24:5-41:19
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:24:5-41:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\d85fd8d9f3bb02ffb787217f244c6bdda84d8e5b\output\AndroidManifest.xml:26:5-20
@@ -94,43 +94,43 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\emreh_0
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\349d86285b4781bd02d6fac4d9c1d2d38661a8ba\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\a0f58121440267f8fc37c5db49cc01d4e1e022e9\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:27:9-41
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:27:9-41
 	android:supportsRtl
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:29:9-35
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:29:9-35
 	android:roundIcon
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:28:9-54
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:28:9-54
 	android:allowBackup
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:25:9-35
 	android:icon
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:26:9-43
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:26:9-43
 	android:theme
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:30:9-40
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:30:9-40
 activity#emre.ax365test.MainActivity
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:31:9-37:20
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:31:9-37:20
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:31:19-47
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:31:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:35:27-74
 activity#emre.ax365test.BarcodeActivity
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:38:9-53
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:38:9-53
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:38:19-50
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:38:19-50
 activity#emre.ax365test.CustomerList
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:39:9-50
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:9-50
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:39:19-47
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:19-47
 activity#emre.ax365test.EditCustomer
-ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:40:9-59
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:40:9-59
 	android:name
-		ADDED from C:\Users\emreh_000\Desktop\AX365TEST2\app\src\main\AndroidManifest.xml:40:19-47
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:40:19-47
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:22:5-24:41

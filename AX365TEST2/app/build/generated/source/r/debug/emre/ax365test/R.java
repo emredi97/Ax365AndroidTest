@@ -2605,9 +2605,9 @@ containing a value of this type.
         public static final int abc_search_view=0x7f040019;
         public static final int abc_select_dialog_material=0x7f04001a;
         public static final int activity_authentication=0x7f04001b;
-        public static final int activity_customer_list=0x7f04001c;
+        public static final int activity_entity_list =0x7f04001c;
         public static final int activity_customerlist_textview=0x7f04001d;
-        public static final int activity_edit_customer=0x7f04001e;
+        public static final int activity_edit_entity =0x7f04001e;
         public static final int activity_main=0x7f04001f;
         public static final int activity_scan_barcode=0x7f040020;
         public static final int dialog_authentication=0x7f040021;

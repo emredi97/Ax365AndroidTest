@@ -33,7 +33,7 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
 
         HttpURLConnection c = null;
         JSONObject final_json = null;
-        JSONArray array=null;
+        JSONArray array = null;
 
 
         URL u = null;
@@ -69,24 +69,10 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
 
 
                     JSONObject jsonObject = new JSONObject(json2);
-                   array = jsonObject.getJSONArray("value");
+                    array = jsonObject.getJSONArray("value");
 
 
-                    final_json=array.getJSONObject(0);
-
-
-
-
-              /*     for (int k = 0; k < jsonObject.length(); k++) {
-                        JSONObject json = jsonObject.getJSONObject(i);
-
-                        if (!json.get("object").equals(null)) {
-                            JSONArray objectJsonArray = json.getJSONArray("object");
-                            for (int n = 0; n < objectJsonArray.length(); n++) {
-                                json = objectJsonArray.getJSONObject(n);
-                            }
-                        }
-                    }*/
+                    final_json = array.getJSONObject(0);
 
                     bufferedReader.close();
 
@@ -119,7 +105,7 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
         }
 
 
-        return  array;
+        return array;
     }
 
     @Override

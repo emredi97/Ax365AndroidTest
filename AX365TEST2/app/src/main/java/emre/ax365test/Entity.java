@@ -11,7 +11,7 @@ import java.util.Iterator;
  * Created by emreh_000 on 11.08.2017.
  */
 
-public class Customer implements Serializable {
+public class Entity implements Serializable {
 
     private static final long serialVersionUID = -7060210544600464481L;
 
@@ -20,14 +20,14 @@ public class Customer implements Serializable {
     Iterator i;
     String Name;
 
-    Customer(JSONObject cust) {
+    Entity(JSONObject cust) {
         i = cust.keys();
 
         values = new ArrayList<Values>();
 
         try {
-            Name=cust.getString("Name");
-            for(int k=0;k<cust.length();k++) {
+            Name = cust.getString("Name");
+            for (int k = 0; k < cust.length(); k++) {
 
                 String key = i.next().toString();
                 String value = cust.getString(key);
@@ -35,7 +35,7 @@ public class Customer implements Serializable {
                 values.add(tmpValues);
 
             }
-            i=null;
+            i = null;
 
 
         } catch (JSONException e) {
