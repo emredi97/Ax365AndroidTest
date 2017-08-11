@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\4c70defa18afe3cfa9907b470292e9448a4700f0\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\4c70defa18afe3cfa9907b470292e9448a4700f0\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_in.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\c65383206d13282bd4d5e2cea7a13149911889db\\output\\res\\anim\\snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_out.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\c65383206d13282bd4d5e2cea7a13149911889db\\output\\res\\anim\\snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_out.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\c65383206d13282bd4d5e2cea7a13149911889db\\output\\res\\anim\\fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_in.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\c65383206d13282bd4d5e2cea7a13149911889db\\output\\res\\anim\\fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    }
+]
