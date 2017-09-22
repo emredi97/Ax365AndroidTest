@@ -32,7 +32,7 @@ public class CustomerList extends AppCompatActivity {
             CustomerNames.add(entities.get(i).getName());
         }
 
-        adapter = new ArrayAdapter<String>(this, R.layout.activity_customerlist_textview, CustomerNames);
+        adapter = new ArrayAdapter<String>(this, R.layout.activity_entitylist_textview, CustomerNames);
 
         listView = (ListView) findViewById(R.id.list);
 

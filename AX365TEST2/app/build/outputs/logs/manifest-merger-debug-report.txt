@@ -127,10 +127,10 @@ activity#emre.ax365test.CustomerList
 ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:9-50
 	android:name
 		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:19-47
-activity#emre.ax365test.EditCustomer
-ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:40:9-59
+activity#emre.ax365test.EditEntity
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:40:9-57
 	android:name
-		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:40:19-47
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:40:19-45
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:22:5-24:41

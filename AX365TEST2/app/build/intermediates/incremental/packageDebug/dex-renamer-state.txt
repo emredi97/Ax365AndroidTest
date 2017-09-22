@@ -1,7 +1,7 @@
-#Fri Aug 11 14:58:10 CEST 2017
-base.0=C\:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_77aa165f7c1daa7eaa2e899cbe1e4dd71a8f4d21
+#Fri Sep 22 10:27:22 CEST 2017
+base.0=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a646bd2150c56c00e4e1e2766d542e169eccd648
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=C\:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_39dab9f3975f0889427e4ac9d857c4bb4a2f2f33\\classes.dex
-base.1=C\:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_39dab9f3975f0889427e4ac9d857c4bb4a2f2f33
-file.0=C\:\\Users\\emreh_000\\Desktop\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_77aa165f7c1daa7eaa2e899cbe1e4dd71a8f4d21\\classes.dex
+file.1=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cdbb715b517adf2fd58e977b8015e7c97a16678c\\classes.dex
+base.1=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cdbb715b517adf2fd58e977b8015e7c97a16678c
+file.0=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a646bd2150c56c00e4e1e2766d542e169eccd648\\classes.dex
