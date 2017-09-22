@@ -2468,7 +2468,7 @@ containing a value of this type.
         public static final int com_microsoft_aad_adal_progressBar=0x7f0b0074;
         public static final int com_microsoft_aad_adal_webView1=0x7f0b0072;
         public static final int contentPanel=0x7f0b0041;
-        public static final int custeditlinear=0x7f0b0069;
+        public static final int custeditlinear=0x7f0b0067;
         public static final int custom=0x7f0b0048;
         public static final int customPanel=0x7f0b0047;
         public static final int dark=0x7f0b0030;
@@ -2492,11 +2492,11 @@ containing a value of this type.
         public static final int ifRoom=0x7f0b0029;
         public static final int image=0x7f0b0039;
         public static final int info=0x7f0b0085;
-        public static final int label=0x7f0b0068;
+        public static final int label=0x7f0b0069;
         public static final int light=0x7f0b0031;
         public static final int line1=0x7f0b008a;
         public static final int line3=0x7f0b008c;
-        public static final int list=0x7f0b0067;
+        public static final int list=0x7f0b0068;
         public static final int listMode=0x7f0b0012;
         public static final int list_item=0x7f0b003b;
         public static final int login=0x7f0b006a;
@@ -2605,9 +2605,9 @@ containing a value of this type.
         public static final int abc_search_view=0x7f040019;
         public static final int abc_select_dialog_material=0x7f04001a;
         public static final int activity_authentication=0x7f04001b;
-        public static final int activity_entity_list =0x7f04001c;
-        public static final int activity_customerlist_textview=0x7f04001d;
-        public static final int activity_edit_entity =0x7f04001e;
+        public static final int activity_edit_entity=0x7f04001c;
+        public static final int activity_entity_list=0x7f04001d;
+        public static final int activity_entitylist_textview=0x7f04001e;
         public static final int activity_main=0x7f04001f;
         public static final int activity_scan_barcode=0x7f040020;
         public static final int dialog_authentication=0x7f040021;
