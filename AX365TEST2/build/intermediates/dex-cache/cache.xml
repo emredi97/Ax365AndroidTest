@@ -3,57 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\emreh_000\.android\build-cache\9d9d003f3fd5998baddcd720fd033e251069e4a2\output\jars\classes.jar"
+        jar="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\emreh_000\Desktop\AX365TEST2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84808b142e61852470fcb1006106d701dbebdaf8\classes.dex" />
+        sha1="e229f14b4123f6276e3a4ce8ab7bdb3b0b0ca783">
+        <dex dex="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_cdbb715b517adf2fd58e977b8015e7c97a16678c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\emreh_000\.android\build-cache\52c523445db281bb025590cea79f88e51d0e7ad7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\emreh_000\Desktop\AX365TEST2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ccfe45aadcc97162ac5d73906e63df260c1fa14\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\emreh_000\Desktop\AX365TEST2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="f166dec1333f0bc377b32723b1fdee1f25456a56">
-        <dex dex="C:\Users\emreh_000\Desktop\AX365TEST2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_39dab9f3975f0889427e4ac9d857c4bb4a2f2f33\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\emreh_000\Desktop\AX365TEST2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\emreh_000\Desktop\AX365TEST2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_77aa165f7c1daa7eaa2e899cbe1e4dd71a8f4d21\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\emreh_000\.android\build-cache\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\emreh_000\Desktop\AX365TEST2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c620777be19eb89e7e021db554dd132f9ca426a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\emreh_000\.android\build-cache\52a00f0368e4b5ca1abb26c3b23e39a5409ff2f1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\emreh_000\Desktop\AX365TEST2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1372f970345aea7300d428f1bbb293db9feefedc\classes.dex" />
+        <dex dex="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a646bd2150c56c00e4e1e2766d542e169eccd648\classes.dex" />
     </item>
 
 </items>

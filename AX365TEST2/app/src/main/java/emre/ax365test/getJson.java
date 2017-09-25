@@ -31,33 +31,33 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
 
         String RequestedData = args[0];
 
-        HttpURLConnection c = null;
-        JSONObject final_json = null;
+        HttpURLConnection Connection = null;
+        JSONObject JSON_object = null;
         JSONArray array = null;
 
 
-        URL u = null;
+        URL URL = null;
         String tmp2 = null;
         try {
 
-            u = new URL("https://ax7demoarmad447060a2c1da4daos.cloudax.dynamics.com/data/" + RequestedData);
-            c = (HttpURLConnection) u.openConnection();
-            c.setRequestMethod("GET");
-            c.setUseCaches(false);
-            c.setAllowUserInteraction(false);
-            c.setRequestProperty("Authorization", "Bearer " + Constants.CURRENT_RESULT.getAccessToken());
-            c.setRequestProperty("Accept", "application/json");
+            URL = new URL("https://ax7demoarmad447060a2c1da4daos.cloudax.dynamics.com/data/" + RequestedData);
+            Connection = (HttpURLConnection) URL.openConnection();
+            Connection.setRequestMethod("GET");
+            Connection.setUseCaches(false);
+            Connection.setAllowUserInteraction(false);
+            Connection.setRequestProperty("Authorization", "Bearer " + Constants.CURRENT_RESULT.getAccessToken());
+            Connection.setRequestProperty("Accept", "application/json");
 
-            c.connect();
+            Connection.connect();
 
 
-            int status = c.getResponseCode();
+            int status = Connection.getResponseCode();
 
             switch (status) {
                 case 200://Erfolgreich
 
 
-                    InputStream inputStream = c.getInputStream();
+                    InputStream inputStream = Connection.getInputStream();
 
                     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
                     StringBuilder builder = new StringBuilder();
@@ -72,14 +72,13 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
                     array = jsonObject.getJSONArray("value");
 
 
-                    final_json = array.getJSONObject(0);
 
                     bufferedReader.close();
 
 
                     break;
                 case 201:
-                    BufferedReader br = new BufferedReader(new InputStreamReader(c.getInputStream()));
+                    BufferedReader br = new BufferedReader(new InputStreamReader(Connection.getInputStream()));
                     StringBuilder sb = new StringBuilder();
 
 
@@ -92,6 +91,7 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
 
 
             }
+
 
         } catch (ProtocolException e1) {
             e1.printStackTrace();

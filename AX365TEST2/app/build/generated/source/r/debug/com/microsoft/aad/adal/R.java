@@ -12,12 +12,12 @@ public final class R {
         public static final int activity_vertical_margin = 0x7f07004f;
     }
     public static final class id {
-        public static final int LinearLayout1 = 0x7f0b0075;
-        public static final int com_microsoft_aad_adal_editDummyText = 0x7f0b0073;
-        public static final int com_microsoft_aad_adal_progressBar = 0x7f0b0074;
-        public static final int com_microsoft_aad_adal_webView1 = 0x7f0b0072;
-        public static final int editPassword = 0x7f0b0077;
-        public static final int editUserName = 0x7f0b0076;
+        public static final int LinearLayout1 = 0x7f0b0076;
+        public static final int com_microsoft_aad_adal_editDummyText = 0x7f0b0074;
+        public static final int com_microsoft_aad_adal_progressBar = 0x7f0b0075;
+        public static final int com_microsoft_aad_adal_webView1 = 0x7f0b0073;
+        public static final int editPassword = 0x7f0b0078;
+        public static final int editUserName = 0x7f0b0077;
         public static final int webView1 = 0x7f0b0066;
     }
     public static final class layout {

@@ -60,12 +60,12 @@ public class MainActivity extends AppCompatActivity {
 
 
         mAuthContext.getCache().removeAll();//Löscht die Anmeldedaten
-
         mAuthContext.acquireToken(MainActivity.this, Constants.RESOURCE_ID, Constants.CLIENT_ID,//Token vom Server holen
                 Constants.REDIRECT_URL, Constants.USER_HINT, "nux=1&" + Constants.EXTRA_QP, new AuthenticationCallback<AuthenticationResult>() {
                     @Override
                     public void onSuccess(AuthenticationResult result) {
                         Constants.CURRENT_RESULT = result;
+
                     }
 
                     @Override
@@ -102,14 +102,17 @@ public class MainActivity extends AppCompatActivity {
     public void doRequest(View V) {
 
         getJson a = new getJson();
+        getEntitys g=new getEntitys();
         String RequestData;
 
         TextView text = (TextView) findViewById(R.id.get);
 
 
+
         RequestData = text.getText().toString();
 
         try {
+            g.execute().get();
             requestedEntity = a.execute(RequestData).get();//Async Task um JSONs zu bekommen
             int ab;
         } catch (InterruptedException e) {
@@ -161,6 +164,19 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void req(View V) {
 
 
-}
+        sendJSON d = new sendJSON();
+
+        try {
+            d.execute().get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    }

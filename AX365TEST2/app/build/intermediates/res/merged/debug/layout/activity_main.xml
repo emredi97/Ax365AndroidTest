@@ -22,7 +22,6 @@
             android:layout_alignParentTop="true"
             android:layout_column="0"
             android:layout_row="1"
-            android:layout_weight="1"
             android:onClick="Login"
             android:text="Anmelden"
             tools:layout_editor_absoluteX="8dp"
@@ -35,7 +34,6 @@
             android:layout_above="@+id/data"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Name"
@@ -46,7 +44,6 @@
             android:id="@+id/request"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:onClick="doRequest"
             android:text="anfordern"
             tools:layout_editor_absoluteX="148dp"
@@ -57,7 +54,6 @@
             android:onClick="onCustomerClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="Debitoren Liste" />
 
         <Button
@@ -65,16 +61,22 @@
             android:onClick="Scan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="Scanner" />
 
         <TextView
             android:id="@+id/reult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0.00"
             android:text="Ergebniss"
             android:onClick="onBarcodeclick"/>
+
+        <Button
+            android:id="@+id/req"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Request"
+            android:onClick="req"/>
 
     </LinearLayout>
 
