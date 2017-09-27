@@ -50,11 +50,11 @@
             tools:layout_editor_absoluteY="161dp" />
 
         <Button
-            android:id="@+id/Customers"
-            android:onClick="onCustomerClick"
+            android:id="@+id/show_list_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Debitoren Liste" />
+            android:onClick="onListButtonClick"
+            android:text="Liste" />
 
         <Button
             android:id="@+id/scan"

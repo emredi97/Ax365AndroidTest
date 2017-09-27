@@ -3,14 +3,17 @@ package emre.ax365test;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.ContextMenu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class CustomerList extends AppCompatActivity {
+public class RecordList extends AppCompatActivity {
 
     ArrayList<Entity> entities;
     Intent intent;
@@ -52,5 +55,44 @@ public class CustomerList extends AppCompatActivity {
             }
         });
 
+        listView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+
+
+                return false;
+            }
+        });
+
+    }
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v,
+                                    ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        AdapterView.AdapterContextMenuInfo info =
+                (AdapterView.AdapterContextMenuInfo) menuInfo;
+        String selectedWord = ((TextView) info.targetView).getText().toString();
+        long selectedWordId = info.id;
+
+        menu.setHeaderTitle("Option");
+        menu.add(0, v.getId(), 0, "Löschen");
+
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        if (item.getTitle() == "Löschen") {
+
+
+            deleteData d=new deleteData();
+            d.execute("test");
+
+
+
+        } else {
+            return false;
+        }
+        return true;
     }
 }

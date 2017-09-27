@@ -16,14 +16,14 @@ public class Entity implements Serializable {
     private static final long serialVersionUID = -7060210544600464481L;
 
 
-    ArrayList<Values> values;
+    ArrayList<KeyPairsJson> values;
     Iterator i;
     String Name;
 
     Entity(JSONObject cust) {
         i = cust.keys();
 
-        values = new ArrayList<Values>();
+        values = new ArrayList<KeyPairsJson>();
 
         try {
             Name = cust.getString("Name");
@@ -31,8 +31,8 @@ public class Entity implements Serializable {
 
                 String key = i.next().toString();
                 String value = cust.getString(key);
-                Values tmpValues = new Values(key, value);
-                values.add(tmpValues);
+                KeyPairsJson tmpKeyPairsJson = new KeyPairsJson(key, value);
+                values.add(tmpKeyPairsJson);
 
             }
             i = null;
@@ -49,7 +49,7 @@ public class Entity implements Serializable {
         return Name;
     }
 
-    public ArrayList<Values> getValues() {
+    public ArrayList<KeyPairsJson> getValues() {
         return values;
     }
 }

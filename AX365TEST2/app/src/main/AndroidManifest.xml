@@ -36,7 +36,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BarcodeActivity" />
-        <activity android:name=".CustomerList" />
+        <activity android:name=".RecordList" />
         <activity android:name=".EditEntity"></activity>
     </application>
 

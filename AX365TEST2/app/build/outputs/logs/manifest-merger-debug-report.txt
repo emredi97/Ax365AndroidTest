@@ -15,15 +15,18 @@ ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidMan
 		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
 uses-sdk
 ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\d85fd8d9f3bb02ffb787217f244c6bdda84d8e5b\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\emreh_000\.android\build-cache\5328e9f39bdb04360644bd51d37505ff409e04c3\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\emreh_000\.android\build-cache\52c523445db281bb025590cea79f88e51d0e7ad7\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\emreh_000\.android\build-cache\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\emreh_000\.android\build-cache\52a00f0368e4b5ca1abb26c3b23e39a5409ff2f1\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\emreh_000\.android\build-cache\9d9d003f3fd5998baddcd720fd033e251069e4a2\output\AndroidManifest.xml:18:5-42
 MERGED from [com.microsoft.aad:adal:1.1.1] C:\Users\emreh_000\.android\build-cache\7ea7bb0883cc0b1175722e344ef0f87d9af1c697\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\d85fd8d9f3bb02ffb787217f244c6bdda84d8e5b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\55b3499a9b255f13c80e2ac64dc35212f8718c4a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\e4b88bc5c9c0bff6dddbea5b49657e69b4589ba3\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\dba1885db19b72047f2381070643f0b898eca3ae\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\0680040b63770f50ed58911146de253fb992758a\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\35b50c6af5a30a1bbc57c47c665bf716f20c3a30\output\AndroidManifest.xml:21:5-23:60
@@ -31,7 +34,7 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\emreh_0
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\349d86285b4781bd02d6fac4d9c1d2d38661a8ba\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\a0f58121440267f8fc37c5db49cc01d4e1e022e9\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:7:9-38
 		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
@@ -78,15 +81,17 @@ ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidMan
 		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:22:22-77
 application
 ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:24:5-41:19
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\d85fd8d9f3bb02ffb787217f244c6bdda84d8e5b\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\emreh_000\.android\build-cache\5328e9f39bdb04360644bd51d37505ff409e04c3\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\emreh_000\.android\build-cache\52c523445db281bb025590cea79f88e51d0e7ad7\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\emreh_000\.android\build-cache\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\output\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\emreh_000\.android\build-cache\52a00f0368e4b5ca1abb26c3b23e39a5409ff2f1\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\emreh_000\.android\build-cache\9d9d003f3fd5998baddcd720fd033e251069e4a2\output\AndroidManifest.xml:20:5-24:19
 MERGED from [com.microsoft.aad:adal:1.1.1] C:\Users\emreh_000\.android\build-cache\7ea7bb0883cc0b1175722e344ef0f87d9af1c697\output\AndroidManifest.xml:11:5-16:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\d85fd8d9f3bb02ffb787217f244c6bdda84d8e5b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\e4b88bc5c9c0bff6dddbea5b49657e69b4589ba3\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\dba1885db19b72047f2381070643f0b898eca3ae\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\0680040b63770f50ed58911146de253fb992758a\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\35b50c6af5a30a1bbc57c47c665bf716f20c3a30\output\AndroidManifest.xml:29:5-20
@@ -123,28 +128,14 @@ activity#emre.ax365test.BarcodeActivity
 ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:38:9-53
 	android:name
 		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:38:19-50
-activity#emre.ax365test.CustomerList
-ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:9-50
+activity#emre.ax365test.RecordList
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:9-48
 	android:name
-		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:19-47
+		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:19-45
 activity#emre.ax365test.EditEntity
 ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:40:9-57
 	android:name
 		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:40:19-45
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\d85fd8d9f3bb02ffb787217f244c6bdda84d8e5b\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\dba1885db19b72047f2381070643f0b898eca3ae\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\0680040b63770f50ed58911146de253fb992758a\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\35b50c6af5a30a1bbc57c47c665bf716f20c3a30\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\f6af4f042a0f9de8d64873cb9172aa2063d944ee\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\349d86285b4781bd02d6fac4d9c1d2d38661a8ba\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\a0f58121440267f8fc37c5db49cc01d4e1e022e9\output\AndroidManifest.xml:25:5-27:41
-	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:27:9-38
-	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:26:9-47
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\emreh_000\.android\build-cache\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\output\AndroidManifest.xml:20:9-22:45
 	android:exported
@@ -157,3 +148,20 @@ activity#com.microsoft.aad.adal.AuthenticationActivity
 ADDED from [com.microsoft.aad:adal:1.1.1] C:\Users\emreh_000\.android\build-cache\7ea7bb0883cc0b1175722e344ef0f87d9af1c697\output\AndroidManifest.xml:14:9-15:20
 	android:name
 		ADDED from [com.microsoft.aad:adal:1.1.1] C:\Users\emreh_000\.android\build-cache\7ea7bb0883cc0b1175722e344ef0f87d9af1c697\output\AndroidManifest.xml:14:19-79
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\89e980e1de3d23911abc063406a455916400fddf\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\66567feca7839cf733048b4f932cda2d82e25eb9\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\d85fd8d9f3bb02ffb787217f244c6bdda84d8e5b\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\55b3499a9b255f13c80e2ac64dc35212f8718c4a\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\e4b88bc5c9c0bff6dddbea5b49657e69b4589ba3\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\dba1885db19b72047f2381070643f0b898eca3ae\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\0680040b63770f50ed58911146de253fb992758a\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\35b50c6af5a30a1bbc57c47c665bf716f20c3a30\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\f6af4f042a0f9de8d64873cb9172aa2063d944ee\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\349d86285b4781bd02d6fac4d9c1d2d38661a8ba\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\a0f58121440267f8fc37c5db49cc01d4e1e022e9\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\emreh_000\.android\build-cache\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\output\AndroidManifest.xml:26:9-47
