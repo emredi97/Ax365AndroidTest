@@ -3,8 +3,10 @@ package emre.ax365test;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
@@ -101,40 +103,58 @@ public class MainActivity extends AppCompatActivity {
 
     public void doRequest(View V) {
 
-        getJson a = new getJson();
-        getEntitys g=new getEntitys();
-        String RequestData;
 
-        TextView text = (TextView) findViewById(R.id.get);
+        if (Constants.CURRENT_RESULT != null) {
+            getJson a = new getJson();
+
+            String RequestData;
+
+            TextView text = (TextView) findViewById(R.id.get);
 
 
+            RequestData = text.getText().toString();
+            Button listButton = (Button) findViewById(R.id.show_list_button);
+            listButton.setText(RequestData + " Liste");
 
-        RequestData = text.getText().toString();
 
-        try {
-            g.execute().get();
-            requestedEntity = a.execute(RequestData).get();//Async Task um JSONs zu bekommen
-            int ab;
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
-        for (int i = 0; i < requestedEntity.length(); i++) {
             try {
-                JSONObject tmp = requestedEntity.getJSONObject(i);
-                Entity tmpEntity = new Entity(tmp);
 
-                entities.add(tmpEntity);
-
-            } catch (JSONException e) {
+                requestedEntity = a.execute(RequestData).get();//Async Task um JSONs zu bekommen
+                int ab;
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
                 e.printStackTrace();
             }
+            for (int i = 0; i < requestedEntity.length(); i++) {
+                try {
+                    JSONObject tmp = requestedEntity.getJSONObject(i);
+                    Entity tmpEntity = new Entity(tmp);
+
+                    entities.add(tmpEntity);
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        } else {
+
+            Snackbar mySnackbar = Snackbar.make(V,"Bitte loggen sie sich ein", Snackbar.LENGTH_SHORT);
+            mySnackbar.setAction("Einloggen", new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Login(view);
+                }
+            });
+            mySnackbar.show();
+
 
         }
 
 
     }
+
 
     public void Scan(View V) {
 
@@ -154,9 +174,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onCustomerClick(View V) {
+    public void onListButtonClick(View V) {
 
-        Intent i = new Intent(this, CustomerList.class);
+        Intent i = new Intent(this, RecordList.class);
         Bundle mbundle = new Bundle();
         mbundle.putSerializable("JSON", entities);
         i.putExtra("JsonObjects", mbundle);
@@ -164,10 +184,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
     public void req(View V) {
 
 
-        sendJSON d = new sendJSON();
+        createData d = new createData();
 
         try {
             d.execute().get();
@@ -179,4 +200,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    }
+}

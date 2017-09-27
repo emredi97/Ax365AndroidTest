@@ -42,7 +42,7 @@
             </intent-filter>
         </activity>
         <activity android:name="emre.ax365test.BarcodeActivity" />
-        <activity android:name="emre.ax365test.CustomerList" />
+        <activity android:name="emre.ax365test.RecordList" />
         <activity android:name="emre.ax365test.EditEntity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

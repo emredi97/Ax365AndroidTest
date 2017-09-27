@@ -15,11 +15,10 @@ import java.net.ProtocolException;
 import java.net.URL;
 
 /**
- * Created by emreh_000 on 22.09.2017.
+ * Created by emreh_000 on 27.09.2017.
  */
 
-public class sendJSON extends AsyncTask<String, String, JSONArray> {
-
+public class updateRecord extends AsyncTask<String, String, String> {
     HttpURLConnection connection;
     String Token;
     final static String AUTHORIZATION_HEADER = "Authorization";
@@ -30,7 +29,7 @@ public class sendJSON extends AsyncTask<String, String, JSONArray> {
     int tmp2;
 
     @Override
-    protected JSONArray doInBackground(String... args) {
+    protected String doInBackground(String... args) {
 
 
         HttpURLConnection Connection2 = null;
@@ -40,10 +39,10 @@ public class sendJSON extends AsyncTask<String, String, JSONArray> {
 
         URL URL = null;
         URL url2 = null;
-
+        //https://servername.cloudax.dynamics.com/data/Customers(CustomerAccount='US-018',%20dataAreaId='USMF')?cross-company=true
         try {
 
-            url2 = new URL("https://ax7demoarmad447060a2c1da4daos.cloudax.dynamics.com/data/DocumentTypes");
+            url2 = new URL("https://ax7demoarmad447060a2c1da4daos.cloudax.dynamics.com/data/DocumentTypes(ID='Te',dataAreaId='usmf')");
 
             int status;
 
@@ -51,14 +50,13 @@ public class sendJSON extends AsyncTask<String, String, JSONArray> {
             JSONObject object = new JSONObject();
             object.put("@odata.type", "#Microsoft.Dynamics.DataEntities.DocumentType");
             object.put("ID", "Te");
-            object.put("Name", "ED");
+            object.put("Name", "EMRE");
             object.put("ActionClassName", "DocuActionArchive");
-
             object.put("dataAreaId", "USMF");
 
             Connection2 = (HttpURLConnection) url2.openConnection();
             Connection2.setDoOutput(true);
-            Connection2.setRequestMethod("POST");
+            Connection2.setRequestMethod("PATCH");
             Connection2.setUseCaches(false);
             Connection2.setConnectTimeout(10000);
             Connection2.setReadTimeout(10000);
@@ -71,12 +69,6 @@ public class sendJSON extends AsyncTask<String, String, JSONArray> {
             Connection2.setRequestProperty("OData-Version", "4.0");
             Connection2.setRequestProperty("OData-MaxVersion", "4.0");
             Connection2.connect();
-
-
-
-
-
-
 
             OutputStreamWriter out = new OutputStreamWriter(Connection2.getOutputStream());
             out.write(object.toString());
@@ -98,12 +90,13 @@ public class sendJSON extends AsyncTask<String, String, JSONArray> {
             e.printStackTrace();
         }
 
-        return array;
+        return "hallo";
+
+
     }
 
     @Override
-    protected void onPostExecute(JSONArray result) {
+    protected void onPostExecute(String result) {
         super.onPostExecute(result);
     }
-
 }
