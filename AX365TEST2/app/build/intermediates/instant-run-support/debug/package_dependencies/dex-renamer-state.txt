@@ -1,4 +1,4 @@
-#Wed Sep 27 09:21:26 CEST 2017
+#Mon Oct 02 09:25:47 CEST 2017
 file.2=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_b8013d70d27a7d6e6a05e6bad78de8f5b36152c7\\classes.dex
 base.2=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_b8013d70d27a7d6e6a05e6bad78de8f5b36152c7
 file.1=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_1c620777be19eb89e7e021db554dd132f9ca426a\\classes.dex

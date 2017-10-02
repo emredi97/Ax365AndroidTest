@@ -20,7 +20,7 @@ import java.net.URL;
 
 public class createData extends AsyncTask<String, String, JSONArray> {
 
-    HttpURLConnection connection;
+
     String Token;
     final static String AUTHORIZATION_HEADER = "Authorization";
 
@@ -33,19 +33,18 @@ public class createData extends AsyncTask<String, String, JSONArray> {
     protected JSONArray doInBackground(String... args) {
 
 
-        HttpURLConnection Connection2 = null;
+        HttpURLConnection connection = null;
         JSONObject JSON_object = null;
         JSONArray array = null;
 
 
         URL URL = null;
-        URL url2 = null;
+
+        int status;
 
         try {
 
-            url2 = new URL("https://ax7demoarmad447060a2c1da4daos.cloudax.dynamics.com/data/DocumentTypes");
-
-            int status;
+            URL = new URL("https://rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com/data/DocumentTypes");
 
 
             JSONObject object = new JSONObject();
@@ -56,40 +55,41 @@ public class createData extends AsyncTask<String, String, JSONArray> {
 
             object.put("dataAreaId", "USMF");
 
-            Connection2 = (HttpURLConnection) url2.openConnection();
-            Connection2.setDoOutput(true);
-            Connection2.setRequestMethod("POST");
-            Connection2.setUseCaches(false);
-            Connection2.setConnectTimeout(10000);
-            Connection2.setReadTimeout(10000);
-            Connection2.setRequestProperty("Authorization", "Bearer " + Constants.CURRENT_RESULT.getAccessToken());
+            connection = (HttpURLConnection) URL.openConnection();
+            connection.setDoOutput(true);
+            connection.setRequestMethod("POST");
+            connection.setUseCaches(false);
+            connection.setConnectTimeout(10000);
+            connection.setReadTimeout(10000);
+            connection.setRequestProperty("Authorization", "Bearer " + Constants.CURRENT_RESULT.getAccessToken());
             // Connection2.setRequestProperty("Content-Type", "application/json");
-            Connection2.setRequestProperty("Content-Type", "application/json;odata.metadata=minimal");
-            Connection2.setRequestProperty("Host", "ax7demoarmad447060a2c1da4daos.cloudax.dynamics.com");
-            Connection2.setRequestProperty("Accept", "application/json;odata.metadata=minimal");
-            Connection2.setRequestProperty("Accept-Charset", "UTF-8");
-            Connection2.setRequestProperty("OData-Version", "4.0");
-            Connection2.setRequestProperty("OData-MaxVersion", "4.0");
-            Connection2.connect();
+            connection.setRequestProperty("Content-Type", "application/json;odata.metadata=minimal");
+            connection.setRequestProperty("Host", "rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com");
+            connection.setRequestProperty("Accept", "application/json;odata.metadata=minimal");
+            connection.setRequestProperty("Accept-Charset", "UTF-8");
+            connection.setRequestProperty("OData-Version", "4.0");
+            connection.setRequestProperty("OData-MaxVersion", "4.0");
+            connection.connect();
 
-            OutputStreamWriter out = new OutputStreamWriter(Connection2.getOutputStream());
+            OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
             out.write(object.toString());
             out.close();
 
-            status = Connection2.getResponseCode();
-            int a;
+            status = connection.getResponseCode();
 
 
         } catch (ProtocolException e1) {
             Log.i("Fehler", e1.getMessage());
-            e1.printStackTrace();
+
         } catch (MalformedURLException e1) {
-            e1.printStackTrace();
+            Log.i("URL", e1.getMessage());
+
         } catch (IOException e1) {
-            e1.printStackTrace();
+            Log.i("IO", e1.getMessage());
+
         } catch (JSONException e) {
             Log.i("JSON_LOG", e.getMessage());
-            e.printStackTrace();
+
         }
 
         return array;

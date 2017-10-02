@@ -39,9 +39,9 @@ public class Constants {
     // -------------------------------AAD
     // PARAMETERS----------------------------------
     public static String AUTHORITY_URL = "https://login.windows.net/rdag365.net"; //AX LOGIN Screen
-    public static String CLIENT_ID = "409b06fd-ac6b-48c9-8536-cb454e3551cf";//CLIENT ID Von Azure
-    public static String RESOURCE_ID = "https://ax7demoarmad447060a2c1da4daos.cloudax.dynamics.com";//AX Adresse
-    public static String REDIRECT_URL = "https://ax7demoarmad447060a2c1da4daos.cloudax.dynamics.com/oauth";//Die im Azure angegebene Redirect url --> KANN irgendetwas mit http:// sein
+    public static String CLIENT_ID = "354b8dcf-ffbe-4486-b60c-2560d9c98785";//CLIENT ID Von Azure
+    public static String RESOURCE_ID = "https://rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com";//AX Adresse
+    public static String REDIRECT_URL = "https://rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com/oauth";//Die im Azure angegebene Redirect url --> KANN irgendetwas mit http:// sein
     public static String CORRELATION_ID = "";
     public static String USER_HINT = "";
     public static String EXTRA_QP = "";
