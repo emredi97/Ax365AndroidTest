@@ -40,7 +40,7 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
         String tmp2 = null;
         try {
 
-            URL = new URL("https://ax7demoarmad447060a2c1da4daos.cloudax.dynamics.com/data/" + RequestedData);
+            URL = new URL(Constants.RESOURCE_ID+"/data/" + RequestedData);
             Connection = (HttpURLConnection) URL.openConnection();
             Connection.setRequestMethod("GET");
             Connection.setUseCaches(false);

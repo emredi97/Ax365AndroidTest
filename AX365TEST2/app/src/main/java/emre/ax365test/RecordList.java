@@ -85,9 +85,8 @@ public class RecordList extends AppCompatActivity {
         if (item.getTitle() == "Löschen") {
 
 
-            deleteData d=new deleteData();
+            deleteData d = new deleteData();
             d.execute("test");
-
 
 
         } else {

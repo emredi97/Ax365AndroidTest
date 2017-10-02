@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ax365.png",
+        "source": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xhdpi\\ax365.png"
+    },
+    {
         "merged": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\plus.png",
+        "source": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xhdpi\\plus.png"
     },
     {
         "merged": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
