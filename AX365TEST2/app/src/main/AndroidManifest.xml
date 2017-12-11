@@ -4,8 +4,7 @@
 
     <uses-sdk
         android:minSdkVersion="11"
-        android:targetSdkVersion="19"
-        />
+        android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -38,7 +37,8 @@
         </activity>
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".RecordList" />
-        <activity android:name=".EditEntity"></activity>
+        <activity android:name=".EditEntity" />
+
     </application>
 
 </manifest>

@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } else {
 
-            Snackbar mySnackbar = Snackbar.make(V,"Bitte loggen sie sich ein", Snackbar.LENGTH_SHORT);
+            Snackbar mySnackbar = Snackbar.make(V, "Bitte loggen sie sich ein", Snackbar.LENGTH_SHORT);
             mySnackbar.setAction("Einloggen", new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
