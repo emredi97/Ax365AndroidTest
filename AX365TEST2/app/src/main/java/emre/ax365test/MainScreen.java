@@ -3,17 +3,17 @@ package emre.ax365test;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -48,14 +48,7 @@ public class MainScreen extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -106,6 +99,8 @@ public class MainScreen extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        }else if(id==R.id.Entity_list){
+
         }
 
         return super.onOptionsItemSelected(item);
@@ -119,6 +114,8 @@ public class MainScreen extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            Intent intent = new Intent(this, BarcodeActivity.class);//Startet Barcode Activty
+            startActivityForResult(intent, 0);
 
 
         } else if (id == R.id.nav_manage) {
@@ -141,7 +138,7 @@ public class MainScreen extends AppCompatActivity
         mAuthContext.getCache().removeAll();*/
 
 
-        mAuthContext.getCache().removeAll();//Löscht die Anmeldedaten
+     //   mAuthContext.getCache().removeAll();//Löscht die Anmeldedaten
         mAuthContext.acquireToken(MainScreen.this, Constants.RESOURCE_ID, Constants.CLIENT_ID,//Token vom Server holen
                 Constants.REDIRECT_URL, Constants.USER_HINT, "nux=1&" + Constants.EXTRA_QP, new AuthenticationCallback<AuthenticationResult>() {
                     @Override
@@ -252,13 +249,16 @@ public class MainScreen extends AppCompatActivity
     }
 
     public void onListButtonClick(View V) {
-
-        Intent i = new Intent(this, RecordList.class);
-        Bundle mbundle = new Bundle();
-        mbundle.putSerializable("JSON", entities);
-        i.putExtra("JsonObjects", mbundle);
-        startActivity(i);
-
+        try {
+            Intent i = new Intent(MainScreen.this, RecordList.class);
+            Bundle mbundle = new Bundle();
+            mbundle.putSerializable("JSON", entities);
+            i.putExtra("JsonObjects", mbundle);
+            Log.i("test","tet");
+            startActivity(i);
+        }catch(Exception i){
+          Log.i("Fehler",i.getMessage());
+        }
 
     }
 

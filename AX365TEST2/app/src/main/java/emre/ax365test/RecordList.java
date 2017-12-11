@@ -3,6 +3,7 @@ package emre.ax365test;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,11 +24,15 @@ public class RecordList extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_entity_list);
-        intent = getIntent();
-        Bundle tmp = intent.getBundleExtra("JsonObjects");
-        entities = (ArrayList<Entity>) tmp.getSerializable("JSON");
+        try {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_entity_list);
+            intent = getIntent();
+            Bundle tmp = intent.getBundleExtra("JsonObjects");
+            entities = (ArrayList<Entity>) tmp.getSerializable("JSON");
+        }catch(Exception o){
+            Log.i("Error",o.getMessage());
+        }
         CustomerNames = new ArrayList<String>();
 
 
