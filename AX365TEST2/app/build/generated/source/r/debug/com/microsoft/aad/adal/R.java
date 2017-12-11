@@ -22,8 +22,8 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_authentication = 0x7f04001b;
-        public static final int dialog_authentication = 0x7f040033;
-        public static final int http_auth_dialog = 0x7f040034;
+        public static final int dialog_authentication = 0x7f040030;
+        public static final int http_auth_dialog = 0x7f040031;
     }
     public static final class string {
         public static final int app_loading = 0x7f070035;
