@@ -41,6 +41,7 @@
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".RecordList" />
         <activity android:name=".EditEntity" />
+
     </application>
 
 </manifest>

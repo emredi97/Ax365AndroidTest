@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:3:5-29
 		INJECTED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml
@@ -80,7 +80,7 @@ ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:22:22-77
 application
-ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:24:5-44:19
+ADDED from C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\src\main\AndroidManifest.xml:24:5-45:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\emreh_000\.android\build-cache\5328e9f39bdb04360644bd51d37505ff409e04c3\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\emreh_000\.android\build-cache\52c523445db281bb025590cea79f88e51d0e7ad7\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\emreh_000\.android\build-cache\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\output\AndroidManifest.xml:19:5-23:19

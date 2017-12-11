@@ -4,12 +4,12 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
         "merged": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",

@@ -3291,6 +3291,7 @@ containing a value of this type.
         public static final int side_nav_bar=0x7f020097;
     }
     public static final class id {
+        public static final int Entity_list=0x7f0d00c7;
         public static final int LinearLayout1=0x7f0d00a4;
         public static final int action0=0x7f0d00ad;
         public static final int action_bar=0x7f0d0073;
@@ -3309,7 +3310,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0070;
         public static final int action_mode_bar_stub=0x7f0d006f;
         public static final int action_mode_close_button=0x7f0d0052;
-        public static final int action_settings=0x7f0d00c9;
+        public static final int action_settings=0x7f0d00c8;
         public static final int action_text=0x7f0d00ac;
         public static final int actions=0x7f0d00ba;
         public static final int activity_chooser_view_content=0x7f0d0053;
@@ -3397,11 +3398,9 @@ containing a value of this type.
         public static final int mini=0x7f0d003f;
         public static final int multiply=0x7f0d0028;
         public static final int nav_camera=0x7f0d00c3;
-        public static final int nav_gallery=0x7f0d00c4;
-        public static final int nav_manage=0x7f0d00c6;
-        public static final int nav_send=0x7f0d00c8;
-        public static final int nav_share=0x7f0d00c7;
-        public static final int nav_slideshow=0x7f0d00c5;
+        public static final int nav_manage=0x7f0d00c4;
+        public static final int nav_send=0x7f0d00c6;
+        public static final int nav_share=0x7f0d00c5;
         public static final int nav_view=0x7f0d0089;
         public static final int navigation_header_container=0x7f0d009b;
         public static final int never=0x7f0d0047;
@@ -3581,10 +3580,8 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f040047;
     }
     public static final class menu {
-        public static final int activity_main2_drawer=0x7f0e0000;
-        public static final int activity_main_drawer=0x7f0e0001;
-        public static final int main=0x7f0e0002;
-        public static final int main2=0x7f0e0003;
+        public static final int activity_main_drawer=0x7f0e0000;
+        public static final int main=0x7f0e0001;
     }
     public static final class mipmap {
         public static final int ax365=0x7f030000;

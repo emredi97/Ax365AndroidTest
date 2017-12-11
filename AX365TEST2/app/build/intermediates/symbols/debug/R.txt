@@ -816,6 +816,7 @@ int drawable notification_tile_bg 0x7f020094
 int drawable notify_panel_notification_icon_bg 0x7f020095
 int drawable roedlogo 0x7f020096
 int drawable side_nav_bar 0x7f020097
+int id Entity_list 0x7f0d00c7
 int id LinearLayout1 0x7f0d00a4
 int id action0 0x7f0d00ad
 int id action_bar 0x7f0d0073
@@ -834,7 +835,7 @@ int id action_menu_presenter 0x7f0d0003
 int id action_mode_bar 0x7f0d0070
 int id action_mode_bar_stub 0x7f0d006f
 int id action_mode_close_button 0x7f0d0052
-int id action_settings 0x7f0d00c9
+int id action_settings 0x7f0d00c8
 int id action_text 0x7f0d00ac
 int id actions 0x7f0d00ba
 int id activity_chooser_view_content 0x7f0d0053
@@ -922,11 +923,9 @@ int id middle 0x7f0d0041
 int id mini 0x7f0d003f
 int id multiply 0x7f0d0028
 int id nav_camera 0x7f0d00c3
-int id nav_gallery 0x7f0d00c4
-int id nav_manage 0x7f0d00c6
-int id nav_send 0x7f0d00c8
-int id nav_share 0x7f0d00c7
-int id nav_slideshow 0x7f0d00c5
+int id nav_manage 0x7f0d00c4
+int id nav_send 0x7f0d00c6
+int id nav_share 0x7f0d00c5
 int id nav_view 0x7f0d0089
 int id navigation_header_container 0x7f0d009b
 int id never 0x7f0d0047
@@ -1100,10 +1099,8 @@ int layout select_dialog_item_material 0x7f040044
 int layout select_dialog_multichoice_material 0x7f040045
 int layout select_dialog_singlechoice_material 0x7f040046
 int layout support_simple_spinner_dropdown_item 0x7f040047
-int menu activity_main2_drawer 0x7f0e0000
-int menu activity_main_drawer 0x7f0e0001
-int menu main 0x7f0e0002
-int menu main2 0x7f0e0003
+int menu activity_main_drawer 0x7f0e0000
+int menu main 0x7f0e0001
 int mipmap ax365 0x7f030000
 int mipmap ic_launcher 0x7f030001
 int mipmap ic_launcher_round 0x7f030002

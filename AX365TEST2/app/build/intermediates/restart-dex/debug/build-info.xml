@@ -6,38 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1512992830545"
+    timestamp="1513002730657"
     token="-4950453347236530954"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2145" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="270" />
+        duration="0" />
     <task
         name="verifier"
-        duration="88" />
-
-    <artifact
-        location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
@@ -82,11 +66,8 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1512992830545"
+        timestamp="1512999454280"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
@@ -94,11 +75,31 @@
             location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1512999659222"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1513001681768"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\emreh_000\Documents\ax\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1513002730657"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
