@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -1396,7 +1396,7 @@
                     "endOffset": 6325
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1415,7 +1415,7 @@
                     "endOffset": 6372
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1434,7 +1434,7 @@
                     "endOffset": 6423
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -4151,7 +4151,7 @@
                     "endOffset": 53284
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -4170,7 +4170,7 @@
                     "endOffset": 53340
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -4949,7 +4949,7 @@
                     "endOffset": 55937
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -5215,7 +5215,7 @@
                     "endOffset": 56984
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -5234,7 +5234,7 @@
                     "endOffset": 57043
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -5538,7 +5538,7 @@
                     "endOffset": 58109
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -5557,7 +5557,7 @@
                     "endOffset": 58199
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -5576,7 +5576,7 @@
                     "endOffset": 58287
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -5595,7 +5595,7 @@
                     "endOffset": 58371
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -5614,7 +5614,7 @@
                     "endOffset": 58457
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -5633,7 +5633,7 @@
                     "endOffset": 58551
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -6773,7 +6773,7 @@
                     "endOffset": 62404
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -6811,7 +6811,7 @@
                     "endOffset": 62504
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -7381,7 +7381,7 @@
                     "endOffset": 66081
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -7400,7 +7400,7 @@
                     "endOffset": 66155
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -7552,7 +7552,7 @@
                     "endOffset": 67166
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -7690,7 +7690,7 @@
                     "endOffset": 68415
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -7710,7 +7710,7 @@
                     "endOffset": 68505
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -7730,7 +7730,7 @@
                     "endOffset": 68655
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -7750,7 +7750,7 @@
                     "endOffset": 68735
                 },
                 "from": {
-                    "file": "C:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
