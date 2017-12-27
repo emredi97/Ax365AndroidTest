@@ -1,7 +1,13 @@
-#Mon Dec 11 14:41:04 CET 2017
-base.0=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a646bd2150c56c00e4e1e2766d542e169eccd648
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cdbb715b517adf2fd58e977b8015e7c97a16678c\\classes.dex
-base.1=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cdbb715b517adf2fd58e977b8015e7c97a16678c
-file.0=C\:\\Users\\emreh_000\\Documents\\ax\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a646bd2150c56c00e4e1e2766d542e169eccd648\\classes.dex
+#Wed Dec 27 10:16:14 CET 2017
+renamed.3=classes2.dex
+renamed.2=classes.dex
+renamed.1=classes3.dex
+renamed.0=classes4.dex
+base.3=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2b43492eab454c55a75b49cdd2267508996ea34e
+base.2=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_83a0cd878b411d61aaa1b52cf059dc44ff5c0ebd
+base.1=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_77aa165f7c1daa7eaa2e899cbe1e4dd71a8f4d21
+base.0=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_39dab9f3975f0889427e4ac9d857c4bb4a2f2f33
+file.3=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2b43492eab454c55a75b49cdd2267508996ea34e\\classes.dex
+file.2=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_83a0cd878b411d61aaa1b52cf059dc44ff5c0ebd\\classes.dex
+file.1=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_77aa165f7c1daa7eaa2e899cbe1e4dd71a8f4d21\\classes.dex
+file.0=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_39dab9f3975f0889427e4ac9d857c4bb4a2f2f33\\classes.dex
