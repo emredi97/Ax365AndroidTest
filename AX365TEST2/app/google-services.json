@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "836331546120",
+    "firebase_url": "https://ax-push.firebaseio.com",
+    "project_id": "ax-push",
+    "storage_bucket": "ax-push.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836331546120:android:73fb507b76312c1d",
+        "android_client_info": {
+          "package_name": "emre.ax365test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836331546120-0lsht6hig2pbni945dm65iirgdrisaer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_T6M1Iwhju0VUUbobAk3D4KmB_BrEq3M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
