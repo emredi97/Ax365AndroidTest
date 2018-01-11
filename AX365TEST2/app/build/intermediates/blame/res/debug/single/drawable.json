@@ -4,12 +4,20 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
@@ -24,8 +32,8 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
@@ -44,8 +52,16 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
@@ -58,6 +74,14 @@
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
@@ -120,6 +144,10 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
@@ -132,16 +160,16 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\325d20fd45a4d552dc207a60a7b34d3ee6cd6b25\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
@@ -157,7 +185,7 @@
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
@@ -169,7 +197,7 @@
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
@@ -177,7 +205,7 @@
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
@@ -198,10 +226,6 @@
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",

@@ -19,6 +19,8 @@ import android.widget.TextView;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.microsoft.aad.adal.AuthenticationCallback;
 import com.microsoft.aad.adal.AuthenticationContext;
 import com.microsoft.aad.adal.AuthenticationResult;
@@ -69,6 +71,10 @@ public class MainScreen extends AppCompatActivity
             e.printStackTrace();
         }
         result = (TextView) findViewById(R.id.reult);
+
+        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
+        FirebaseMessaging.getInstance().subscribeToTopic("news");
+        Log.i("firebase", "Refreshed token: " + refreshedToken);
 
     }
 

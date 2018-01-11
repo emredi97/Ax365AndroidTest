@@ -16,6 +16,10 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
@@ -25,7 +29,7 @@
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
@@ -56,14 +60,6 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\color\\abc_tint_edittext.xml"
     },
@@ -77,7 +73,7 @@
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\f6b0c8b46b6af14f0a970f52a299bd1aabeb348d\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
