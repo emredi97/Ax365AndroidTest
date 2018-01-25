@@ -27,16 +27,19 @@ dependencies {
     })
     //Barcode Scanner API
     //Microsoft Active Directoy API
+    // this line must be included to integrate with Firebase
+    // this line must be included to use FCM
+
+
+
     compile 'org.odata4j:odata4j-dist:0.7.0@pom'
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.google.android.gms:play-services-vision:11.0.4'
     compile 'com.microsoft.aad:adal:1.1.1'
     compile 'com.android.support:design:26.0.0-alpha1'
-    compile 'com.google.firebase:firebase-core:11.0.4'                        // this line must be included to integrate with Firebase
-    compile 'com.google.firebase:firebase-messaging:11.0.4'                   // this line must be included to use FCM
-
+    compile 'com.google.firebase:firebase-core:11.0.4'
+    compile 'com.google.firebase:firebase-messaging:11.0.4'
     testCompile 'junit:junit:4.12'
-
-    apply plugin: 'com.google.gms.google-services'
 }
+apply plugin: 'com.google.gms.google-services'

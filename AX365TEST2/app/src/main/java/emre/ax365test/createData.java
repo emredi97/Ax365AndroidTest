@@ -49,11 +49,13 @@ public class createData extends AsyncTask<String, String, JSONArray> {
 
             JSONObject object = new JSONObject();
             object.put("@odata.type", "#Microsoft.Dynamics.DataEntities.DocumentType");
-            object.put("ID", "Te");
-            object.put("Name", "ED");
+            object.put("ID", "emre");
+            object.put("Name", "hallo");
             object.put("ActionClassName", "DocuActionArchive");
 
             object.put("dataAreaId", "USMF");
+
+            Log.i("JSON",object.toString());
 
             connection = (HttpURLConnection) URL.openConnection();
             connection.setDoOutput(true);

@@ -4,8 +4,16 @@
         "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\roedllogo.png",
+        "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xhdpi\\roedllogo.png"
+    },
+    {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ax365.png",
         "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xhdpi\\ax365.png"
+    },
+    {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\roedlround.png",
+        "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xhdpi\\roedlround.png"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\plus.png",

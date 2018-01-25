@@ -99,7 +99,7 @@ ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.x
 intent-filter#com.google.firebase.MESSAGING_EVENT
 ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:25:9-27:25
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:26:13-73
+ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:26:13-74
 	android:name
 		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:26:21-71
 service#emre.ax365test.FirebaseIDService
@@ -109,7 +109,7 @@ ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.x
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:30:9-32:25
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:31:13-75
+ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:31:13-76
 	android:name
 		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:31:21-73
 application
@@ -143,11 +143,11 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\emreh_00
 	android:supportsRtl
 		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:40:9-35
 	android:roundIcon
-		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:9-54
+		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:39:9-47
 	android:allowBackup
 		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:36:9-35
 	android:icon
-		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:37:9-43
+		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:37:9-41
 	android:theme
 		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:41:9-40
 activity#emre.ax365test.MainScreen
@@ -180,6 +180,10 @@ activity#emre.ax365test.EditEntity
 ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:54:9-48
 	android:name
 		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:54:19-45
+activity#emre.ax365test.NotificationSettings
+ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:55:9-67
+	android:name
+		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:55:19-55
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\emreh_000\.android\build-cache\dbaa88a3d02f2dabcf6b775050878119ad4ac574\output\AndroidManifest.xml:19:9-172
 	android:exported
