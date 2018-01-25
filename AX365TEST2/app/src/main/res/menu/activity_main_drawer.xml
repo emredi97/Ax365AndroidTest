@@ -10,6 +10,10 @@
             android:id="@+id/nav_manage"
             android:icon="?android:attr/listChoiceIndicatorMultiple"
             android:title="Tools" />
+        <item
+            android:id="@+id/Push_Settings"
+            android:icon="?android:attr/listChoiceIndicatorMultiple"
+            android:title="Push Einstellungen" />
     </group>
 
     <item android:title="Communicate">

@@ -4,12 +4,20 @@
         "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ax365.png"
     },
     {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\roedlround.png",
+        "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xxxhdpi\\roedlround.png"
+    },
+    {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\plus.png",
         "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xxxhdpi\\plus.png"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
         "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\roedllogo.png",
+        "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\mipmap-xxxhdpi\\roedllogo.png"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
