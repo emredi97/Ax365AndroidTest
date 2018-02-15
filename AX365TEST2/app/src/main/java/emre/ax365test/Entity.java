@@ -1,5 +1,7 @@
 package emre.ax365test;
 
+import android.util.Log;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -33,6 +35,7 @@ public class Entity implements Serializable {
                 String value = cust.getString(key);
                 KeyPairsJson tmpKeyPairsJson = new KeyPairsJson(key, value);
                 values.add(tmpKeyPairsJson);
+                Log.i(key,value);
 
             }
             i = null;

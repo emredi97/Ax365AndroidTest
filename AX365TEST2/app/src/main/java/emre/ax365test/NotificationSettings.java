@@ -86,8 +86,7 @@ public class NotificationSettings extends AppCompatActivity {
                     case "Debitor":{
                         if(c.getInt(1)==1){
                             DebCheckBox.setChecked(true);
-                            int enwjk=789;
-                            int fef=890;
+
                         }
                         break;
                     }

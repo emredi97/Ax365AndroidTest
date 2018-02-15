@@ -1,4 +1,4 @@
-#Mon Jan 22 15:11:02 CET 2018
+#Thu Feb 15 13:26:44 CET 2018
 base.0=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_83a0cd878b411d61aaa1b52cf059dc44ff5c0ebd
 renamed.1=classes2.dex
 renamed.0=classes.dex

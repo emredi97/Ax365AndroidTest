@@ -49,9 +49,6 @@ public class MainScreen extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -122,13 +119,13 @@ public class MainScreen extends AppCompatActivity
             // Handle the camera action
             Intent intent = new Intent(this, BarcodeActivity.class);//Startet Barcode Activty
             startActivityForResult(intent, 0);
-
-
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.Push_Settings) {
+            Intent intent=new Intent(this,NotificationSettings.class);
+            startActivity(intent);
 
         }
 
@@ -137,22 +134,18 @@ public class MainScreen extends AppCompatActivity
         return true;
     }
     public void Login(View V) {
-      /*  CookieSyncManager.createInstance(MainActivity.this);
+       /* CookieSyncManager.createInstance(MainScreen.this);
         CookieManager cookieManager = CookieManager.getInstance();          //Wenn man sich jedesmal anmelden möchte auskommentieren
         cookieManager.removeAllCookie();
         CookieSyncManager.getInstance().sync();
         mAuthContext.getCache().removeAll();*/
 
-
-     //   mAuthContext.getCache().removeAll();//Löscht die Anmeldedaten
         mAuthContext.acquireToken(MainScreen.this, Constants.RESOURCE_ID, Constants.CLIENT_ID,//Token vom Server holen
                 Constants.REDIRECT_URL, Constants.USER_HINT, "nux=1&" + Constants.EXTRA_QP, new AuthenticationCallback<AuthenticationResult>() {
                     @Override
                     public void onSuccess(AuthenticationResult result) {
                         Constants.CURRENT_RESULT = result;
-
                     }
-
                     @Override
                     public void onError(Exception exc) {
 
@@ -171,7 +164,6 @@ public class MainScreen extends AppCompatActivity
                     result.setText(b.displayValue);
                     bcode = b.displayValue;
                 } else {
-
                     result.setText("No Barcode");
                 }
             }
@@ -182,23 +174,15 @@ public class MainScreen extends AppCompatActivity
         }
     }
     public void doRequest(View V) {
-
-
         if (Constants.CURRENT_RESULT != null) {
             getJson a = new getJson();
-
             String RequestData;
-
             TextView text = (TextView) findViewById(R.id.get);
-
-
             RequestData = text.getText().toString();
             Button listButton = (Button) findViewById(R.id.show_list_button);
             listButton.setText(RequestData + " Liste");
 
-
             try {
-
                 requestedEntity = a.execute(RequestData).get();//Async Task um JSONs zu bekommen
                 int ab;
             } catch (InterruptedException e) {
@@ -210,16 +194,12 @@ public class MainScreen extends AppCompatActivity
                 try {
                     JSONObject tmp = requestedEntity.getJSONObject(i);
                     Entity tmpEntity = new Entity(tmp);
-
                     entities.add(tmpEntity);
-
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-
             }
         } else {
-
             Snackbar mySnackbar = Snackbar.make(V, "Bitte loggen sie sich ein", Snackbar.LENGTH_SHORT);
             mySnackbar.setAction("Einloggen", new View.OnClickListener() {
                 @Override
@@ -228,29 +208,19 @@ public class MainScreen extends AppCompatActivity
                 }
             });
             mySnackbar.show();
-
-
         }
-
-
     }
-
 
     public void Scan(View V) {
 
         Intent intent = new Intent(this, BarcodeActivity.class);//Startet Barcode Activty
         startActivityForResult(intent, 0);
-
-
     }
 
     public void onBarcodeclick(View V) {
-
-
         Intent i = new Intent(Intent.ACTION_VIEW);//Versucht den QR& Barcode im Browser zu öffnen
         i.setData(Uri.parse(bcode));
         startActivity(i);
-
 
     }
 
@@ -269,10 +239,7 @@ public class MainScreen extends AppCompatActivity
     }
 
     public void req(View V) {
-
-
         createData d = new createData();
-
         try {
             d.execute().get();
         } catch (InterruptedException e) {

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jan 22 15:11:00 CET 2018
+#Thu Feb 15 13:26:40 CET 2018
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_action.xml
 14.set=ANDROID_RESOURCE
