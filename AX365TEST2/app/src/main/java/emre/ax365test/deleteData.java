@@ -42,14 +42,14 @@ public class deleteData extends AsyncTask<String, String, String> {
 
         try {
 
-            URL = new URL("https://rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com/data/DocumentTypes(ID='test',dataAreaId='usmf')");
+            URL = new URL(Constants.RESOURCE_ID+"/data/DocumentTypes(ID='EDI',dataAreaId='USMF')");
 
             int status;
 
 
             JSONObject object = new JSONObject();
             object.put("@odata.type", "#Microsoft.Dynamics.DataEntities.DocumentType");
-            object.put("ID", "test");
+            object.put("ID", "EDI");
             object.put("dataAreaId", "USMF");
 
             Connection = (HttpURLConnection) URL.openConnection();
@@ -60,7 +60,7 @@ public class deleteData extends AsyncTask<String, String, String> {
             Connection.setReadTimeout(10000);
             Connection.setRequestProperty("Authorization", "Bearer " + Constants.CURRENT_RESULT.getAccessToken());
             Connection.setRequestProperty("Content-Type", "application/json;odata.metadata=minimal");
-            Connection.setRequestProperty("Host", "rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com");
+            Connection.setRequestProperty("Host", Constants.RESOURCE_ID);
             Connection.setRequestProperty("Accept", "application/json;odata.metadata=minimal");
             Connection.setRequestProperty("Accept-Charset", "UTF-8");
             Connection.setRequestProperty("OData-Version", "4.0");
@@ -70,7 +70,7 @@ public class deleteData extends AsyncTask<String, String, String> {
             OutputStreamWriter out = new OutputStreamWriter(Connection.getOutputStream());
             out.write(object.toString());
             out.close();
-
+            Log.i("Status", Connection.getResponseMessage());
             status = Connection.getResponseCode();
             int a;
 

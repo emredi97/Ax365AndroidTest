@@ -145,6 +145,8 @@ public class MainScreen extends AppCompatActivity
                     @Override
                     public void onSuccess(AuthenticationResult result) {
                         Constants.CURRENT_RESULT = result;
+                        Log.i("USER",result.getUserInfo().getDisplayableId());
+                        Log.i("Token",result.getAccessToken());
                     }
                     @Override
                     public void onError(Exception exc) {

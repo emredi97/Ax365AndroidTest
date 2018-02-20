@@ -21,7 +21,6 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/roedllogo"
@@ -42,8 +41,9 @@
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".RecordList" />
         <activity android:name=".EditEntity" />
-        <activity android:name=".NotificationSettings"></activity>
-        <service android:name="emre.ax365test.MyFirebaseMessagingService">
+        <activity android:name=".NotificationSettings" />
+
+        <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -53,6 +53,9 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name=".TimeEntry" />
+        <activity android:name=".MyProjects"></activity>
     </application>
 
 </manifest>
