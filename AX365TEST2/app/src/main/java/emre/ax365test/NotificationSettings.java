@@ -49,8 +49,6 @@ public class NotificationSettings extends AppCompatActivity {
                     values.put("Subscriped", "0");
                     myDB.execSQL("update Subscription set Subscriped=0 where SubscriptionName='Debitor'");
                     FirebaseMessaging.getInstance().unsubscribeFromTopic("Debitor");
-
-
                 }
 
             }
@@ -86,7 +84,6 @@ public class NotificationSettings extends AppCompatActivity {
                     case "Debitor":{
                         if(c.getInt(1)==1){
                             DebCheckBox.setChecked(true);
-
                         }
                         break;
                     }

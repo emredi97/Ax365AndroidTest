@@ -35,7 +35,6 @@ public class RecordList extends AppCompatActivity {
         }
         CustomerNames = new ArrayList<String>();
 
-
         for (int i = 0; i < entities.size(); i++) {
             CustomerNames.add(entities.get(i).getName());
         }
@@ -44,10 +43,8 @@ public class RecordList extends AppCompatActivity {
 
         listView = (ListView) findViewById(R.id.list);
 
-
         listView.setAdapter(adapter);
         registerForContextMenu(listView);
-
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -63,8 +60,6 @@ public class RecordList extends AppCompatActivity {
         listView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
-
-
                 return false;
             }
         });
@@ -89,10 +84,8 @@ public class RecordList extends AppCompatActivity {
     public boolean onContextItemSelected(MenuItem item) {
         if (item.getTitle() == "Löschen") {
 
-
             deleteData d = new deleteData();
             d.execute("test");
-
 
         } else {
             return false;

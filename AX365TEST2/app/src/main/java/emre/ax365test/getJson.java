@@ -50,7 +50,6 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
 
             Connection.connect();
 
-
             int status = Connection.getResponseCode();
 
             switch (status) {
@@ -71,16 +70,12 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
                     JSONObject jsonObject = new JSONObject(json2);
                     array = jsonObject.getJSONArray("value");
 
-
-
                     bufferedReader.close();
-
 
                     break;
                 case 201:
                     BufferedReader br = new BufferedReader(new InputStreamReader(Connection.getInputStream()));
                     StringBuilder sb = new StringBuilder();
-
 
                     while ((line = br.readLine()) != null) {
                         sb.append(line + "\n");
@@ -88,20 +83,17 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
                     Constants.setTmp(line);
                     Constants.sb = sb;
                     br.close();
-
-
             }
 
 
         } catch (ProtocolException e1) {
-            e1.printStackTrace();
+            Log.i("Protocol Exception", e1.getMessage());
         } catch (MalformedURLException e1) {
-            e1.printStackTrace();
+            Log.i("Malformed URL Exception", e1.getMessage());
         } catch (IOException e1) {
-            e1.printStackTrace();
+            Log.i("IO Exception", e1.getMessage());
         } catch (JSONException e) {
             Log.i("JSON_LOG", e.getMessage());
-            e.printStackTrace();
         }
 
 

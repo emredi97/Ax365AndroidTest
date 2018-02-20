@@ -36,15 +36,13 @@ public class Entity implements Serializable {
                 KeyPairsJson tmpKeyPairsJson = new KeyPairsJson(key, value);
                 values.add(tmpKeyPairsJson);
                 Log.i(key,value);
-
             }
             i = null;
 
 
         } catch (JSONException e) {
-            e.printStackTrace();
+            Log.i("Json Log",e.getMessage());
         }
-
 
     }
 

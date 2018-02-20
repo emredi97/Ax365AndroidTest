@@ -26,7 +26,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         // Also if you intend on generating your own notifications as a result of a received FCM
         // message, here is where that should be initiated.
         ;
-
         Map<String, String> data = remoteMessage.getData();
         Log.d(TAG, "From: " + remoteMessage.getFrom());
         Log.d(TAG, "Notification Message Body: " + remoteMessage.getNotification().getBody());
@@ -37,9 +36,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     }
     private void sendNotification(RemoteMessage remoteMessage) {
 //        Toast.makeText(getApplicationContext(), messageBody, Toast.LENGTH_LONG).show();
-
-
-
         //Uri defaultSoundUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.pushnotify);
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(remoteMessage.getData().get("URL")));
