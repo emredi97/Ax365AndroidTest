@@ -23,11 +23,7 @@ package emre.ax365test;
 import com.microsoft.aad.adal.AuthenticationResult;
 
 public class Constants {
-
-
     //Klasse für die Konstanten
-
-
     public static final String SDK_VERSION = "1.0";
 
     public static final String UTF8_ENCODING = "UTF-8";
@@ -38,10 +34,10 @@ public class Constants {
 
     // -------------------------------AAD
     // PARAMETERS----------------------------------
-    public static String AUTHORITY_URL = "https://login.windows.net/rdag365.net"; //AX LOGIN Screen
-    public static String CLIENT_ID = "dcd8af56-90e2-49bc-ac73-d326d46a15a9";//CLIENT ID Von Azure
-    public static String RESOURCE_ID = "https://rdagdmo01094f27c6aeba9322aos.cloudax.dynamics.com";//AX Adresse
-    public static String REDIRECT_URL = "https://rdagdmo01094f27c6aeba9322aos.cloudax.dynamics.com/oauth";//Die im Azure angegebene Redirect url --> KANN irgendetwas mit http:// sein
+    public static String AUTHORITY_URL = "https://login.windows.net/rconag.onmicrosoft.com"; //AX LOGIN Screen
+    public static String CLIENT_ID = "b5ddfb10-8169-43f9-9801-c7be8aaef620"; //CLIENT ID Von Azure
+    public static String RESOURCE_ID = "https://rcondev01a952c4861b6a09a1devaos.cloudax.dynamics.com"; //AX Adresse
+    public static String REDIRECT_URL = "https://rcondev01a952c4861b6a09a1devaos.cloudax.dynamics.com/oauth"; //Die im Azure angegebene Redirect url --> KANN irgendetwas mit http:// sein
     public static String CORRELATION_ID = "";
     public static String USER_HINT = "";
     public static String EXTRA_QP = "";
@@ -49,12 +45,11 @@ public class Constants {
     public static AuthenticationResult CURRENT_RESULT = null;
     private static String tmp;
     public static StringBuilder sb;
+    public static String user;
 
 
     public static void setSB(StringBuilder t) {
-
         sb = t;
-
     }
 
 

@@ -20,8 +20,8 @@ public class EditEntity extends AppCompatActivity {
     private Intent intent;
     private Entity customers;
     LinearLayout linear;
-    ArrayList<KeyPairsJson> values;
-    ArrayList<String> entityKey;
+    ArrayList < KeyPairsJson > values;
+    ArrayList < String > entityKey;
     ArrayAdapter adapter;
     ListView listView;
 
@@ -34,7 +34,7 @@ public class EditEntity extends AppCompatActivity {
         Bundle tmp = intent.getBundleExtra("JsonObjects");
         customers = (Entity) tmp.getSerializable("JSON");
 
-        entityKey = new ArrayList<String>();
+        entityKey = new ArrayList < String > ();
 
         values = customers.getValues();
 
@@ -51,7 +51,7 @@ public class EditEntity extends AppCompatActivity {
 
 
         }
-        adapter = new ArrayAdapter<String>(this, R.layout.activity_entitylist_textview, entityKey);
+        adapter = new ArrayAdapter < String > (this, R.layout.activity_entitylist_textview, entityKey);
         listView = (ListView) findViewById(R.id.listEntityEdit);
         listView.setAdapter(adapter);
         registerForContextMenu(listView);
@@ -59,7 +59,7 @@ public class EditEntity extends AppCompatActivity {
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            public void onItemClick(AdapterView < ? > adapterView, View view, int i, long l) {
 
                 final EditText input = new EditText(EditEntity.this);
                 RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(
@@ -75,7 +75,7 @@ public class EditEntity extends AppCompatActivity {
                 build.setPositiveButton("Bestätigen", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                    updateRecord u= new updateRecord();
+                        updateRecord u = new updateRecord();
                         u.execute("test");
 
                     }

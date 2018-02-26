@@ -20,8 +20,6 @@ import java.io.IOException;
 
 public class BarcodeActivity extends AppCompatActivity {
     SurfaceView camView;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

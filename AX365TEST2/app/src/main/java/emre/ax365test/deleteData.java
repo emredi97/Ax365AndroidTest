@@ -18,7 +18,7 @@ import java.net.URL;
  * Created by emreh_000 on 27.09.2017.
  */
 
-public class deleteData extends AsyncTask<String, String, String> {
+public class deleteData extends AsyncTask < String, String, String > {
 
 
     String Token;
@@ -30,7 +30,7 @@ public class deleteData extends AsyncTask<String, String, String> {
     int tmp2;
 
     @Override
-    protected String doInBackground(String... args) {
+    protected String doInBackground(String...args) {
 
 
         HttpURLConnection Connection = null;
@@ -42,10 +42,9 @@ public class deleteData extends AsyncTask<String, String, String> {
 
         try {
 
-            URL = new URL(Constants.RESOURCE_ID+"/data/DocumentTypes(ID='EDI',dataAreaId='USMF')");
+            URL = new URL(Constants.RESOURCE_ID + "/data/DocumentTypes(ID='EDI',dataAreaId='USMF')");
 
             int status;
-
 
             JSONObject object = new JSONObject();
             object.put("@odata.type", "#Microsoft.Dynamics.DataEntities.DocumentType");
@@ -74,7 +73,6 @@ public class deleteData extends AsyncTask<String, String, String> {
             status = Connection.getResponseCode();
             int a;
 
-
         } catch (ProtocolException e1) {
             Log.i("Fehler", e1.getMessage());
 
@@ -88,11 +86,8 @@ public class deleteData extends AsyncTask<String, String, String> {
             Log.i("JSON_LOG", e.getMessage());
 
         }
-
-
         return null;
     }
-
     @Override
     protected void onPostExecute(String result) {
         super.onPostExecute(result);

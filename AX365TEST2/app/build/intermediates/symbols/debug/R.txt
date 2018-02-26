@@ -787,7 +787,7 @@ int drawable notify_panel_notification_icon_bg 0x7f020080
 int drawable roedlogo 0x7f020081
 int drawable side_nav_bar 0x7f020082
 int id DebCheckBox 0x7f0d008b
-int id Entity_list 0x7f0d00cd
+int id Entity_list 0x7f0d00ce
 int id KredCheckBox 0x7f0d008c
 int id LinearLayout1 0x7f0d00a9
 int id Push_Settings 0x7f0d00ca
@@ -808,7 +808,7 @@ int id action_menu_presenter 0x7f0d0003
 int id action_mode_bar 0x7f0d0070
 int id action_mode_bar_stub 0x7f0d006f
 int id action_mode_close_button 0x7f0d0052
-int id action_settings 0x7f0d00ce
+int id action_settings 0x7f0d00cf
 int id action_text 0x7f0d00b1
 int id actions 0x7f0d00bf
 int id activity_chooser_view_content 0x7f0d0053
@@ -898,10 +898,11 @@ int id media_actions 0x7f0d00b5
 int id middle 0x7f0d0041
 int id mini 0x7f0d003f
 int id multiply 0x7f0d0028
+int id myProjects 0x7f0d00cb
 int id nav_camera 0x7f0d00c8
 int id nav_manage 0x7f0d00c9
-int id nav_send 0x7f0d00cc
-int id nav_share 0x7f0d00cb
+int id nav_send 0x7f0d00cd
+int id nav_share 0x7f0d00cc
 int id nav_view 0x7f0d0089
 int id navigation_header_container 0x7f0d00a0
 int id never 0x7f0d0047

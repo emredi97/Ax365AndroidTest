@@ -80,16 +80,17 @@ public class createData extends AsyncTask<String, String, JSONArray> {
 
         } catch (ProtocolException e1) {
             Log.i("Fehler", e1.getMessage());
+            Log.i("Fehler", e1.getCause().getMessage());
 
         } catch (MalformedURLException e1) {
             Log.i("URL", e1.getMessage());
-
+            Log.i("URL", e1.getCause().getMessage());
         } catch (IOException e1) {
             Log.i("IO", e1.getMessage());
-
+            Log.i("IO", e1.getCause().getMessage());
         } catch (JSONException e) {
             Log.i("JSON_LOG", e.getMessage());
-
+            Log.i("JSON_LOG", e.getCause().getMessage());
         }
 
         return array;
