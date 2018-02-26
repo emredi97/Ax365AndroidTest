@@ -16,7 +16,7 @@ import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 
-public class getJson extends AsyncTask<String, String, JSONArray> {
+public class getJson extends AsyncTask < String, String, JSONArray > {
 
     HttpURLConnection urlConnection;
     String Token;
@@ -27,20 +27,18 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
     StringBuilder data;
 
     @Override
-    protected JSONArray doInBackground(String... args) {
-
+    protected JSONArray doInBackground(String...args) {
         String RequestedData = args[0];
 
         HttpURLConnection Connection = null;
         JSONObject JSON_object = null;
         JSONArray array = null;
 
-
         URL URL = null;
         String tmp2 = null;
         try {
 
-            URL = new URL(Constants.RESOURCE_ID+"/data/" + RequestedData);
+            URL = new URL(Constants.RESOURCE_ID + "/data/" + RequestedData);
             Connection = (HttpURLConnection) URL.openConnection();
             Connection.setRequestMethod("GET");
             Connection.setUseCaches(false);
@@ -53,9 +51,7 @@ public class getJson extends AsyncTask<String, String, JSONArray> {
             int status = Connection.getResponseCode();
 
             switch (status) {
-                case 200://Erfolgreich
-
-
+                case 200: //Erfolgreich
                     InputStream inputStream = Connection.getInputStream();
 
                     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));

@@ -14,6 +14,10 @@
             android:id="@+id/Push_Settings"
             android:icon="?android:attr/listChoiceIndicatorMultiple"
             android:title="Push Einstellungen" />
+        <item
+            android:id="@+id/myProjects"
+            android:icon="?android:attr/listChoiceIndicatorMultiple"
+            android:title="Meine Projekte" />
     </group>
 
     <item android:title="Communicate">

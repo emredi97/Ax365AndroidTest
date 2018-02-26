@@ -41,7 +41,7 @@ public class MainScreen extends AppCompatActivity
     TextView result;
     String bcode;
     JSONArray requestedEntity;
-    ArrayList<Entity> entities;
+    ArrayList < Entity > entities;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +57,7 @@ public class MainScreen extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        entities = new ArrayList<Entity>();
+        entities = new ArrayList < Entity > ();
         try {
 
             mAuthContext = new AuthenticationContext(this, Constants.AUTHORITY_URL,
@@ -102,7 +102,7 @@ public class MainScreen extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
-        }else if(id==R.id.Entity_list){
+        } else if (id == R.id.Entity_list) {
 
         }
 
@@ -117,14 +117,16 @@ public class MainScreen extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
-            Intent intent = new Intent(this, BarcodeActivity.class);//Startet Barcode Activty
+            Intent intent = new Intent(this, BarcodeActivity.class); //Startet Barcode Activty
             startActivityForResult(intent, 0);
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.myProjects) {
+            Intent i = new Intent(this, MyProjects.class);
+            startActivity(i);
 
         } else if (id == R.id.Push_Settings) {
-            Intent intent=new Intent(this,NotificationSettings.class);
+            Intent intent = new Intent(this, NotificationSettings.class);
             startActivity(intent);
 
         }
@@ -134,22 +136,23 @@ public class MainScreen extends AppCompatActivity
         return true;
     }
     public void Login(View V) {
-       /* CookieSyncManager.createInstance(MainScreen.this);
-        CookieManager cookieManager = CookieManager.getInstance();          //Wenn man sich jedesmal anmelden möchte auskommentieren
-        cookieManager.removeAllCookie();
-        CookieSyncManager.getInstance().sync();
-        mAuthContext.getCache().removeAll();*/
+  /*CookieSyncManager.createInstance(MainScreen.this);
+   CookieManager cookieManager = CookieManager.getInstance();          //Wenn man sich jedesmal anmelden möchte auskommentieren
+   cookieManager.removeAllCookie();
+   CookieSyncManager.getInstance().sync();
+   mAuthContext.getCache().removeAll();*/
 
-        mAuthContext.acquireToken(MainScreen.this, Constants.RESOURCE_ID, Constants.CLIENT_ID,//Token vom Server holen
-                Constants.REDIRECT_URL, Constants.USER_HINT, "nux=1&" + Constants.EXTRA_QP, new AuthenticationCallback<AuthenticationResult>() {
+        mAuthContext.acquireToken(MainScreen.this, Constants.RESOURCE_ID, Constants.CLIENT_ID, //Token vom Server holen
+                Constants.REDIRECT_URL, Constants.USER_HINT, "nux=1&" + Constants.EXTRA_QP, new AuthenticationCallback < AuthenticationResult > () {
                     @Override
                     public void onSuccess(AuthenticationResult result) {
                         Constants.CURRENT_RESULT = result;
-                        Log.i("USER",result.getUserInfo().getDisplayableId());
-                        Log.i("Token",result.getAccessToken());
+                        Log.i("USER", result.getUserInfo().getDisplayableId());
+                        Log.i("Token", result.getAccessToken());
                     }
                     @Override
                     public void onError(Exception exc) {
+                        Log.e("Auth", exc.getMessage());
 
                     }
                 });
@@ -161,7 +164,7 @@ public class MainScreen extends AppCompatActivity
         if (requestCode == 0) {
             if (resultCode == CommonStatusCodes.SUCCESS) {
                 result = (TextView) findViewById(R.id.reult);
-                if (data != null) {//wenn die Activity einen Intent zurückgegeben hat setze den Barcode
+                if (data != null) { //wenn die Activity einen Intent zurückgegeben hat setze den Barcode
                     Barcode b = data.getParcelableExtra("barcode");
                     result.setText(b.displayValue);
                     bcode = b.displayValue;
@@ -185,7 +188,7 @@ public class MainScreen extends AppCompatActivity
             listButton.setText(RequestData + " Liste");
 
             try {
-                requestedEntity = a.execute(RequestData).get();//Async Task um JSONs zu bekommen
+                requestedEntity = a.execute(RequestData).get(); //Async Task um JSONs zu bekommen
                 int ab;
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -215,12 +218,12 @@ public class MainScreen extends AppCompatActivity
 
     public void Scan(View V) {
 
-        Intent intent = new Intent(this, BarcodeActivity.class);//Startet Barcode Activty
+        Intent intent = new Intent(this, BarcodeActivity.class); //Startet Barcode Activty
         startActivityForResult(intent, 0);
     }
 
     public void onBarcodeclick(View V) {
-        Intent i = new Intent(Intent.ACTION_VIEW);//Versucht den QR& Barcode im Browser zu öffnen
+        Intent i = new Intent(Intent.ACTION_VIEW); //Versucht den QR& Barcode im Browser zu öffnen
         i.setData(Uri.parse(bcode));
         startActivity(i);
 
@@ -232,23 +235,24 @@ public class MainScreen extends AppCompatActivity
             Bundle mbundle = new Bundle();
             mbundle.putSerializable("JSON", entities);
             i.putExtra("JsonObjects", mbundle);
-            Log.i("test","tet");
+            Log.i("test", "tet");
             startActivity(i);
-        }catch(Exception i){
-          Log.i("Fehler",i.getMessage());
+        } catch (Exception i) {
+            Log.i("Fehler", i.getMessage());
         }
 
     }
 
-    public void req(View V) {
+    public void request(View V) {
         createData d = new createData();
         try {
             d.execute().get();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            Log.i("InterruptedException ", e.getMessage());
         } catch (ExecutionException e) {
-            e.printStackTrace();
+            Log.i("ExecutionException ", e.getMessage());
         }
     }
+
 
 }

@@ -18,7 +18,7 @@ import java.net.URL;
  * Created by emreh_000 on 27.09.2017.
  */
 
-public class updateRecord extends AsyncTask<String, String, String> {
+public class updateRecord extends AsyncTask < String, String, String > {
 
     String Token;
     final static String AUTHORIZATION_HEADER = "Authorization";
@@ -29,8 +29,7 @@ public class updateRecord extends AsyncTask<String, String, String> {
     int tmp2;
 
     @Override
-    protected String doInBackground(String... args) {
-
+    protected String doInBackground(String...args) {
 
         HttpURLConnection connection = null;
         JSONObject JSON_object = null;
@@ -59,17 +58,17 @@ public class updateRecord extends AsyncTask<String, String, String> {
             connection.setRequestProperty("Authorization", "Bearer " + Constants.CURRENT_RESULT.getAccessToken());
             // Connection2.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Content-Type", "application/json;odata.metadata=minimal");
-            /*connection.setRequestProperty("Host", "rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com");
-            connection.setRequestProperty("Accept", "application/json;odata.metadata=minimal");
-            connection.setRequestProperty("Accept-Charset", "UTF-8");
-            connection.setRequestProperty("OData-Version", "4.0");
-            connection.setRequestProperty("OData-MaxVersion", "4.0");*/
+   /*connection.setRequestProperty("Host", "rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com");
+   connection.setRequestProperty("Accept", "application/json;odata.metadata=minimal");
+   connection.setRequestProperty("Accept-Charset", "UTF-8");
+   connection.setRequestProperty("OData-Version", "4.0");
+   connection.setRequestProperty("OData-MaxVersion", "4.0");*/
             connection.connect();
 
             OutputStreamWriter out = new OutputStreamWriter(connection.getOutputStream());
             out.write(object.toString());
             out.close();
-            Log.i("Connection",connection.getResponseMessage());
+            Log.i("Connection", connection.getResponseMessage());
             status = connection.getResponseCode();
 
         } catch (ProtocolException e1) {

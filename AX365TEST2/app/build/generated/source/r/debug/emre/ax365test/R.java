@@ -3262,7 +3262,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int DebCheckBox=0x7f0d008b;
-        public static final int Entity_list=0x7f0d00cd;
+        public static final int Entity_list=0x7f0d00ce;
         public static final int KredCheckBox=0x7f0d008c;
         public static final int LinearLayout1=0x7f0d00a9;
         public static final int Push_Settings=0x7f0d00ca;
@@ -3283,7 +3283,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0070;
         public static final int action_mode_bar_stub=0x7f0d006f;
         public static final int action_mode_close_button=0x7f0d0052;
-        public static final int action_settings=0x7f0d00ce;
+        public static final int action_settings=0x7f0d00cf;
         public static final int action_text=0x7f0d00b1;
         public static final int actions=0x7f0d00bf;
         public static final int activity_chooser_view_content=0x7f0d0053;
@@ -3373,10 +3373,11 @@ containing a value of this type.
         public static final int middle=0x7f0d0041;
         public static final int mini=0x7f0d003f;
         public static final int multiply=0x7f0d0028;
+        public static final int myProjects=0x7f0d00cb;
         public static final int nav_camera=0x7f0d00c8;
         public static final int nav_manage=0x7f0d00c9;
-        public static final int nav_send=0x7f0d00cc;
-        public static final int nav_share=0x7f0d00cb;
+        public static final int nav_send=0x7f0d00cd;
+        public static final int nav_share=0x7f0d00cc;
         public static final int nav_view=0x7f0d0089;
         public static final int navigation_header_container=0x7f0d00a0;
         public static final int never=0x7f0d0047;

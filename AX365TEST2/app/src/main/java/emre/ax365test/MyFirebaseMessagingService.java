@@ -25,7 +25,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         // If the application is in the foreground handle both data and notification messages here.
         // Also if you intend on generating your own notifications as a result of a received FCM
         // message, here is where that should be initiated.
-        ;
         Map<String, String> data = remoteMessage.getData();
         Log.d(TAG, "From: " + remoteMessage.getFrom());
         Log.d(TAG, "Notification Message Body: " + remoteMessage.getNotification().getBody());
@@ -38,18 +37,30 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 //        Toast.makeText(getApplicationContext(), messageBody, Toast.LENGTH_LONG).show();
         //Uri defaultSoundUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.pushnotify);
         Intent i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse(remoteMessage.getData().get("URL")));
-        PendingIntent intent = PendingIntent.getActivity(this, 0,
-                i, 0);
-        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
-                .setSmallIcon(R.mipmap.ic_launcher)
-                .setContentTitle("RD 365 AX Test")
-                .setContentText(remoteMessage.getNotification().getBody())
-                .setContentIntent(intent)
-                .setAutoCancel(true);
+        if(remoteMessage.getData().get("URL")!=null) {
+            i.setData(Uri.parse(remoteMessage.getData().get("URL")));
+            PendingIntent intent = PendingIntent.getActivity(this, 0,
+                    i, 0);
 
-        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
+                    .setSmallIcon(R.mipmap.roedlround)
+                    .setContentTitle("RD 365 AX Test")
+                    .setContentText(remoteMessage.getNotification().getBody())
+                    .setContentIntent(intent)
+                    .setAutoCancel(true);
+            NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
 
-        notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
+        }else {
+            NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
+                    .setSmallIcon(R.mipmap.roedlround)
+                    .setContentTitle("RD 365 AX Test")
+                    .setContentText(remoteMessage.getNotification().getBody())
+                    .setAutoCancel(true);
+            NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
+        }
+
+
     }
 }

@@ -18,14 +18,14 @@ public class Entity implements Serializable {
     private static final long serialVersionUID = -7060210544600464481L;
 
 
-    ArrayList<KeyPairsJson> values;
+    ArrayList < KeyPairsJson > values;
     Iterator i;
     String Name;
 
     Entity(JSONObject cust) {
         i = cust.keys();
 
-        values = new ArrayList<KeyPairsJson>();
+        values = new ArrayList < KeyPairsJson > ();
 
         try {
             Name = cust.getString("Name");
@@ -35,13 +35,13 @@ public class Entity implements Serializable {
                 String value = cust.getString(key);
                 KeyPairsJson tmpKeyPairsJson = new KeyPairsJson(key, value);
                 values.add(tmpKeyPairsJson);
-                Log.i(key,value);
+                Log.i(key, value);
             }
             i = null;
 
 
         } catch (JSONException e) {
-            Log.i("Json Log",e.getMessage());
+            Log.i("Json Log", e.getMessage());
         }
 
     }
@@ -50,7 +50,7 @@ public class Entity implements Serializable {
         return Name;
     }
 
-    public ArrayList<KeyPairsJson> getValues() {
+    public ArrayList < KeyPairsJson > getValues() {
         return values;
     }
 }
