@@ -40,7 +40,7 @@
         </activity>
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".RecordList" />
-        <activity android:name=".EditEntity" />
+        <activity android:name=".editData" />
         <activity android:name=".NotificationSettings" />
 
         <service android:name=".MyFirebaseMessagingService">
@@ -54,8 +54,8 @@
             </intent-filter>
         </service>
 
-        <activity android:name=".TimeEntry" />
-        <activity android:name=".MyProjects"></activity>
+        <activity android:name=".MyProjects" />
+        <activity android:name=".OrderByScreen"></activity>
     </application>
 
 </manifest>

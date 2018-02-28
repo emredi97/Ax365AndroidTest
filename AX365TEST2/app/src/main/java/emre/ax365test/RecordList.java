@@ -49,7 +49,7 @@ public class RecordList extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView < ? > adapterView, View view, int i, long l) {
-                Intent in = new Intent(view.getContext(), EditEntity.class);
+                Intent in = new Intent(view.getContext(), editData.class);
                 Bundle mbundle = new Bundle();
                 mbundle.putSerializable("JSON", entities.get(i)); in .putExtra("JsonObjects", mbundle);
                 startActivity( in );
@@ -83,7 +83,7 @@ public class RecordList extends AppCompatActivity {
     public boolean onContextItemSelected(MenuItem item) {
         if (item.getTitle() == "Löschen") {
 
-            deleteData d = new deleteData();
+            deleteDataAsync d = new deleteDataAsync();
             d.execute("test");
 
         } else {

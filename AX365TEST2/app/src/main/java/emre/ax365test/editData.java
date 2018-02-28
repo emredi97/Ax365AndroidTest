@@ -15,7 +15,7 @@ import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 
-public class EditEntity extends AppCompatActivity {
+public class editData extends AppCompatActivity {
 
     private Intent intent;
     private Entity customers;
@@ -61,21 +61,21 @@ public class EditEntity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView < ? > adapterView, View view, int i, long l) {
 
-                final EditText input = new EditText(EditEntity.this);
+                final EditText input = new EditText(editData.this);
                 RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(
                         RelativeLayout.LayoutParams.MATCH_PARENT,
                         RelativeLayout.LayoutParams.MATCH_PARENT);
                 input.setText("Neuer Wert");
                 input.setLayoutParams(lp);
 
-                AlertDialog.Builder build = new AlertDialog.Builder(EditEntity.this);
+                AlertDialog.Builder build = new AlertDialog.Builder(editData.this);
                 build.setTitle("Wert verändern");
                 build.setMessage("Bitte geben sie den neuen Wer ein");
                 build.setView(input);
                 build.setPositiveButton("Bestätigen", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        updateRecord u = new updateRecord();
+                        updateDataAsync u = new updateDataAsync();
                         u.execute("test");
 
                     }
