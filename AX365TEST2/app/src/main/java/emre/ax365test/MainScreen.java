@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
@@ -42,13 +43,16 @@ public class MainScreen extends AppCompatActivity
     String bcode;
     JSONArray requestedEntity;
     ArrayList < Entity > entities;
-
+    String orderName;
+    private ProgressBar spinner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        spinner = (ProgressBar) findViewById(R.id.progressBar);
+        spinner.setVisibility(View.INVISIBLE);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -161,22 +165,32 @@ public class MainScreen extends AppCompatActivity
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == 0) {
-            if (resultCode == CommonStatusCodes.SUCCESS) {
-                result = (TextView) findViewById(R.id.reult);
-                if (data != null) { //wenn die Activity einen Intent zurückgegeben hat setze den Barcode
-                    Barcode b = data.getParcelableExtra("barcode");
-                    result.setText(b.displayValue);
-                    bcode = b.displayValue;
-                } else {
-                    result.setText("No Barcode");
+
+            switch(resultCode){
+                case CommonStatusCodes.SUCCESS:{
+                    result = (TextView) findViewById(R.id.reult);
+                    if (data != null) { //wenn die Activity einen Intent zurückgegeben hat setze den Barcode
+                        Barcode b = data.getParcelableExtra("barcode");
+                        result.setText(b.displayValue);
+                        bcode = b.displayValue;
+                    } else {
+                        result.setText("No Barcode");
+                    }
+                    break;
+                }
+                case 25:{
+                    Log.i("Value",data.getExtras().getString("OrderKey"));
+                    orderName=data.getExtras().getString("OrderKey");
+                    createEntities();
+                    break;
+                }
+                default:{
+
                 }
             }
 
-        } else {
-            super.onActivityResult(requestCode, resultCode, data);
-            mAuthContext.onActivityResult(requestCode, resultCode, data);
-        }
+
+
     }
     public void doRequest(View V) {
         if (Constants.CURRENT_RESULT != null) {
@@ -188,22 +202,22 @@ public class MainScreen extends AppCompatActivity
             listButton.setText(RequestData + " Liste");
 
             try {
+                spinner.setVisibility(View.VISIBLE);
+                int ijn=89;
                 requestedEntity = a.execute(RequestData).get(); //Async Task um JSONs zu bekommen
-                int ab;
+                Intent i=new Intent(this,OrderByScreen.class);
+                JSONObject tempJson=requestedEntity.getJSONObject(1);
+                i.putExtra("Entity",tempJson.toString());
+                spinner.setVisibility(View.INVISIBLE);
+                startActivityForResult(i,25);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } catch (ExecutionException e) {
                 e.printStackTrace();
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
-            for (int i = 0; i < requestedEntity.length(); i++) {
-                try {
-                    JSONObject tmp = requestedEntity.getJSONObject(i);
-                    Entity tmpEntity = new Entity(tmp);
-                    entities.add(tmpEntity);
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
+
         } else {
             Snackbar mySnackbar = Snackbar.make(V, "Bitte loggen sie sich ein", Snackbar.LENGTH_SHORT);
             mySnackbar.setAction("Einloggen", new View.OnClickListener() {
@@ -244,13 +258,24 @@ public class MainScreen extends AppCompatActivity
     }
 
     public void request(View V) {
-        createData d = new createData();
+        createDataAsync d = new createDataAsync();
         try {
             d.execute().get();
         } catch (InterruptedException e) {
             Log.i("InterruptedException ", e.getMessage());
         } catch (ExecutionException e) {
             Log.i("ExecutionException ", e.getMessage());
+        }
+    }
+    public void createEntities(){
+        for (int i = 0; i < requestedEntity.length(); i++) {
+            try {
+                JSONObject tmp = requestedEntity.getJSONObject(i);
+                Entity tmpEntity = new Entity(tmp,orderName);
+                entities.add(tmpEntity);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
         }
     }
 

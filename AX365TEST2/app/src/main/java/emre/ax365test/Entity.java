@@ -22,13 +22,13 @@ public class Entity implements Serializable {
     Iterator i;
     String Name;
 
-    Entity(JSONObject cust) {
+    Entity(JSONObject cust,String orderName) {
         i = cust.keys();
 
         values = new ArrayList < KeyPairsJson > ();
 
         try {
-            Name = cust.getString("Name");
+            Name = cust.getString(orderName);
             for (int k = 0; k < cust.length(); k++) {
 
                 String key = i.next().toString();

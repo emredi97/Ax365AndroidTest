@@ -184,14 +184,14 @@ action#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:53:17-80
 	android:name
 		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:53:25-77
-activity#emre.ax365test.TimeEntry
-ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:57:9-47
-	android:name
-		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:57:19-44
 activity#emre.ax365test.MyProjects
-ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:58:9-57
+ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:57:9-48
 	android:name
-		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:58:19-45
+		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:57:19-45
+activity#emre.ax365test.OrderByScreen
+ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:58:9-60
+	android:name
+		ADDED from C:\Daten\Ax android test\AX\AX365TEST2\app\src\main\AndroidManifest.xml:58:19-48
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\emreh_000\.android\build-cache\dbaa88a3d02f2dabcf6b775050878119ad4ac574\output\AndroidManifest.xml:19:9-172
 	android:exported

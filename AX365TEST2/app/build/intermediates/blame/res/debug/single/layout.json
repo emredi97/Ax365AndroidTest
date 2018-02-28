@@ -164,6 +164,10 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\7ea7bb0883cc0b1175722e344ef0f87d9af1c697\\output\\res\\layout\\dialog_authentication.xml"
     },
     {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_by_screen.xml",
+        "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\layout\\activity_order_by_screen.xml"
+    },
+    {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
@@ -254,10 +258,6 @@
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_entity_list.xml",
         "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\layout\\activity_edit_entity_list.xml"
-    },
-    {
-        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_time_entry.xml",
-        "source": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\src\\main\\res\\layout\\activity_time_entry.xml"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",

@@ -6,26 +6,30 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1519646855757"
+    timestamp="1519742999183"
     token="3726648808681784022"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="4630" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="60" />
     <task
         name="verifier"
-        duration="0" />
+        duration="10" />
+
+    <artifact
+        location="C:\Daten\Ax android test\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1519646724508"
+        timestamp="1519742444240"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Daten\Ax android test\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -66,7 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1519646855757"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1519742999183"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Daten\Ax android test\AX\AX365TEST2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
 
 </instant-run>

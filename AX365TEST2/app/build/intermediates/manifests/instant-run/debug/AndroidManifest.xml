@@ -69,8 +69,8 @@
             </intent-filter>
         </service>
 
-        <activity android:name="emre.ax365test.TimeEntry" />
         <activity android:name="emre.ax365test.MyProjects" />
+        <activity android:name="emre.ax365test.OrderByScreen" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

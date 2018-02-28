@@ -18,7 +18,7 @@ import java.net.URL;
  * Created by emreh_000 on 27.09.2017.
  */
 
-public class deleteData extends AsyncTask < String, String, String > {
+public class deleteDataAsync extends AsyncTask < String, String, String > {
 
 
     String Token;
