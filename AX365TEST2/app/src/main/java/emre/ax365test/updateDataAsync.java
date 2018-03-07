@@ -18,7 +18,7 @@ import java.net.URL;
  * Created by emreh_000 on 27.09.2017.
  */
 
-public class updateDataAsync extends AsyncTask < String, String, String > {
+public class updateDataAsync extends AsyncTask<String, String, String> {
 
     String Token;
     final static String AUTHORIZATION_HEADER = "Authorization";
@@ -29,7 +29,7 @@ public class updateDataAsync extends AsyncTask < String, String, String > {
     int tmp2;
 
     @Override
-    protected String doInBackground(String...args) {
+    protected String doInBackground(String... args) {
 
         HttpURLConnection connection = null;
         JSONObject JSON_object = null;

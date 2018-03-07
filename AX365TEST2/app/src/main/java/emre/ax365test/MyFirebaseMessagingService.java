@@ -19,6 +19,7 @@ import java.util.Map;
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
     private static final String TAG = "FCM Service";
+
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         // TODO: Handle FCM messages here.
@@ -31,13 +32,14 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         String url = data.get("URL");
         sendNotification(remoteMessage);
 
-      //  startActivity(i);
+        //  startActivity(i);
     }
+
     private void sendNotification(RemoteMessage remoteMessage) {
 //        Toast.makeText(getApplicationContext(), messageBody, Toast.LENGTH_LONG).show();
         //Uri defaultSoundUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.pushnotify);
         Intent i = new Intent(Intent.ACTION_VIEW);
-        if(remoteMessage.getData().get("URL")!=null) {
+        if (remoteMessage.getData().get("URL") != null) {
             i.setData(Uri.parse(remoteMessage.getData().get("URL")));
             PendingIntent intent = PendingIntent.getActivity(this, 0,
                     i, 0);
@@ -51,7 +53,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
             NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
             notificationManager.notify(0 /* ID of notification */, notificationBuilder.build());
 
-        }else {
+        } else {
             NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                     .setSmallIcon(R.mipmap.roedlround)
                     .setContentTitle("RD 365 AX Test")

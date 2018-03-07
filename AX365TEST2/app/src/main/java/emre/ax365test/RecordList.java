@@ -16,10 +16,10 @@ import java.util.ArrayList;
 
 public class RecordList extends AppCompatActivity {
 
-    ArrayList < Entity > entities;
+    ArrayList<Entity> entities;
     Intent intent;
     ArrayAdapter adapter;
-    ArrayList < String > CustomerNames;
+    ArrayList<String> CustomerNames;
     ListView listView;
 
     @Override
@@ -29,17 +29,17 @@ public class RecordList extends AppCompatActivity {
             setContentView(R.layout.activity_entity_list);
             intent = getIntent();
             Bundle tmp = intent.getBundleExtra("JsonObjects");
-            entities = (ArrayList < Entity > ) tmp.getSerializable("JSON");
+            entities = (ArrayList<Entity>) tmp.getSerializable("JSON");
         } catch (Exception o) {
             Log.i("Error", o.getMessage());
         }
-        CustomerNames = new ArrayList < String > ();
+        CustomerNames = new ArrayList<String>();
 
         for (int i = 0; i < entities.size(); i++) {
             CustomerNames.add(entities.get(i).getName());
         }
 
-        adapter = new ArrayAdapter < String > (this, R.layout.activity_entitylist_textview, CustomerNames);
+        adapter = new ArrayAdapter<String>(this, R.layout.activity_entitylist_textview, CustomerNames);
 
         listView = (ListView) findViewById(R.id.list);
 
@@ -48,11 +48,12 @@ public class RecordList extends AppCompatActivity {
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView < ? > adapterView, View view, int i, long l) {
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent in = new Intent(view.getContext(), editData.class);
                 Bundle mbundle = new Bundle();
-                mbundle.putSerializable("JSON", entities.get(i)); in .putExtra("JsonObjects", mbundle);
-                startActivity( in );
+                mbundle.putSerializable("JSON", entities.get(i));
+                in.putExtra("JsonObjects", mbundle);
+                startActivity(in);
             }
         });
 
