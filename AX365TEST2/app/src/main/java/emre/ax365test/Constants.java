@@ -22,6 +22,8 @@ package emre.ax365test;
 
 import com.microsoft.aad.adal.AuthenticationResult;
 
+import java.util.ArrayList;
+
 public class Constants {
     //Klasse für die Konstanten
     public static final String SDK_VERSION = "1.0";
@@ -31,6 +33,8 @@ public class Constants {
     public static final String HEADER_AUTHORIZATION = "Authorization";
 
     public static final String HEADER_AUTHORIZATION_VALUE_PREFIX = "Bearer ";
+
+    public static ArrayList<UrlPairs> Pairs;
 
     // -------------------------------AAD
     // PARAMETERS----------------------------------

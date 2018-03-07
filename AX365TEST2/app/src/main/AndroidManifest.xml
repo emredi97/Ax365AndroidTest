@@ -53,9 +53,11 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-
+        <service android:name=".EntityListService"></service>
         <activity android:name=".MyProjects" />
-        <activity android:name=".OrderByScreen"></activity>
+        <activity android:name=".OrderByScreen" />
+        <activity android:name=".EntityList" />
+        <activity android:name=".AxValueScreen"></activity>
     </application>
 
 </manifest>

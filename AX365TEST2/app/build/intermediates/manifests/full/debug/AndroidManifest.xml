@@ -55,7 +55,7 @@
         </activity>
         <activity android:name="emre.ax365test.BarcodeActivity" />
         <activity android:name="emre.ax365test.RecordList" />
-        <activity android:name="emre.ax365test.EditEntity" />
+        <activity android:name="emre.ax365test.editData" />
         <activity android:name="emre.ax365test.NotificationSettings" />
 
         <service android:name="emre.ax365test.MyFirebaseMessagingService" >
@@ -68,9 +68,12 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+        <service android:name="emre.ax365test.EntityListService" />
 
         <activity android:name="emre.ax365test.MyProjects" />
         <activity android:name="emre.ax365test.OrderByScreen" />
+        <activity android:name="emre.ax365test.EntityList" />
+        <activity android:name="emre.ax365test.AxValueScreen" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

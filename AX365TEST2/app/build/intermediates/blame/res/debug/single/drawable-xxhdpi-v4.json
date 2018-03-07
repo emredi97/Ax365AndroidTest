@@ -32,12 +32,12 @@
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\dbaa88a3d02f2dabcf6b775050878119ad4ac574\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
-        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\emreh_000\\.android\\build-cache\\89e980e1de3d23911abc063406a455916400fddf\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Daten\\Ax android test\\AX\\AX365TEST2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",

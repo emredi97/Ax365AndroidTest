@@ -15,7 +15,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
@@ -42,17 +41,23 @@ public class MainScreen extends AppCompatActivity
     TextView result;
     String bcode;
     JSONArray requestedEntity;
-    ArrayList < Entity > entities;
+    ArrayList<Entity> entities;
     String orderName;
-    private ProgressBar spinner;
+   // private ProgressBar spinner;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Boolean isFirstRun = getSharedPreferences("PREFERENCE",MODE_PRIVATE).getBoolean("isfirstrun",true);
+        /*if(isFirstRun){
+            Intent i =new Intent(this,AxValueScreen.class);
+            startActivity(i);
+        }*/
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        spinner = (ProgressBar) findViewById(R.id.progressBar);
-        spinner.setVisibility(View.INVISIBLE);
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -61,7 +66,7 @@ public class MainScreen extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        entities = new ArrayList < Entity > ();
+        entities = new ArrayList<Entity>();
         try {
 
             mAuthContext = new AuthenticationContext(this, Constants.AUTHORITY_URL,
@@ -107,7 +112,13 @@ public class MainScreen extends AppCompatActivity
         if (id == R.id.action_settings) {
             return true;
         } else if (id == R.id.Entity_list) {
-
+            if(Constants.CURRENT_RESULT!=null) {
+                Intent i = new Intent(this, EntityList.class);
+                startActivity(i);
+            }else{
+                Snackbar.make(getCurrentFocus(),"Bitte loggen sie sich ein",Snackbar.LENGTH_SHORT).show();
+                //Snackbar.make(new View(),"je",Snackbar.LENGTH_SHORT);
+            }
         }
 
         return super.onOptionsItemSelected(item);
@@ -139,6 +150,7 @@ public class MainScreen extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
     public void Login(View V) {
   /*CookieSyncManager.createInstance(MainScreen.this);
    CookieManager cookieManager = CookieManager.getInstance();          //Wenn man sich jedesmal anmelden möchte auskommentieren
@@ -147,13 +159,14 @@ public class MainScreen extends AppCompatActivity
    mAuthContext.getCache().removeAll();*/
 
         mAuthContext.acquireToken(MainScreen.this, Constants.RESOURCE_ID, Constants.CLIENT_ID, //Token vom Server holen
-                Constants.REDIRECT_URL, Constants.USER_HINT, "nux=1&" + Constants.EXTRA_QP, new AuthenticationCallback < AuthenticationResult > () {
+                Constants.REDIRECT_URL, Constants.USER_HINT, "nux=1&" + Constants.EXTRA_QP, new AuthenticationCallback<AuthenticationResult>() {
                     @Override
                     public void onSuccess(AuthenticationResult result) {
                         Constants.CURRENT_RESULT = result;
                         Log.i("USER", result.getUserInfo().getDisplayableId());
                         Log.i("Token", result.getAccessToken());
                     }
+
                     @Override
                     public void onError(Exception exc) {
                         Log.e("Auth", exc.getMessage());
@@ -163,35 +176,32 @@ public class MainScreen extends AppCompatActivity
 
 
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-            switch(resultCode){
-                case CommonStatusCodes.SUCCESS:{
-                    result = (TextView) findViewById(R.id.reult);
-                    if (data != null) { //wenn die Activity einen Intent zurückgegeben hat setze den Barcode
-                        Barcode b = data.getParcelableExtra("barcode");
-                        result.setText(b.displayValue);
-                        bcode = b.displayValue;
-                    } else {
-                        result.setText("No Barcode");
-                    }
-                    break;
-                }
-                case 25:{
-                    Log.i("Value",data.getExtras().getString("OrderKey"));
-                    orderName=data.getExtras().getString("OrderKey");
-                    createEntities();
-                    break;
-                }
-                default:{
-
+        if (requestCode == 0) {
+            if (resultCode == CommonStatusCodes.SUCCESS) {
+                result = (TextView) findViewById(R.id.reult);
+                if (data != null) {//wenn die Activity einen Intent zurückgegeben hat setze den Barcode
+                    Barcode b = data.getParcelableExtra("barcode");
+                    result.setText(b.displayValue);
+                    bcode = b.displayValue;
+                }  else {
+                    result.setText("No Barcode");
                 }
             }
 
-
-
+        }else if (resultCode == 25) {
+            Log.i("Value", data.getExtras().getString("OrderKey"));
+            orderName = data.getExtras().getString("OrderKey");
+            createEntities();
+        } else {
+            super.onActivityResult(requestCode, resultCode, data);
+            mAuthContext.onActivityResult(requestCode, resultCode, data);
+        }
     }
+
     public void doRequest(View V) {
         if (Constants.CURRENT_RESULT != null) {
             getJson a = new getJson();
@@ -202,14 +212,14 @@ public class MainScreen extends AppCompatActivity
             listButton.setText(RequestData + " Liste");
 
             try {
-                spinner.setVisibility(View.VISIBLE);
-                int ijn=89;
+                //spinner.setVisibility(View.VISIBLE);
+                int ijn = 89;
                 requestedEntity = a.execute(RequestData).get(); //Async Task um JSONs zu bekommen
-                Intent i=new Intent(this,OrderByScreen.class);
-                JSONObject tempJson=requestedEntity.getJSONObject(1);
-                i.putExtra("Entity",tempJson.toString());
-                spinner.setVisibility(View.INVISIBLE);
-                startActivityForResult(i,25);
+                Intent i = new Intent(this, OrderByScreen.class);
+                JSONObject tempJson = requestedEntity.getJSONObject(0);
+                i.putExtra("Entity", tempJson.toString());
+                //spinner.setVisibility(View.GONE);
+                startActivityForResult(i, 25);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } catch (ExecutionException e) {
@@ -267,11 +277,12 @@ public class MainScreen extends AppCompatActivity
             Log.i("ExecutionException ", e.getMessage());
         }
     }
-    public void createEntities(){
+
+    public void createEntities() {
         for (int i = 0; i < requestedEntity.length(); i++) {
             try {
                 JSONObject tmp = requestedEntity.getJSONObject(i);
-                Entity tmpEntity = new Entity(tmp,orderName);
+                Entity tmpEntity = new Entity(tmp, orderName);
                 entities.add(tmpEntity);
             } catch (JSONException e) {
                 e.printStackTrace();

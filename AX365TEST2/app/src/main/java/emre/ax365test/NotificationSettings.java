@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 public class NotificationSettings extends AppCompatActivity {
 
-    HashMap < String, Boolean > hmap = new HashMap < String, Boolean > ();
+    HashMap<String, Boolean> hmap = new HashMap<String, Boolean>();
     boolean writedValues;
     SQLiteDatabase myDB;
     Cursor c;
@@ -74,24 +74,23 @@ public class NotificationSettings extends AppCompatActivity {
             int Column2 = c.getColumnIndex("Subscriped");
         }
     }
+
     public void readData() {
         CheckBox DebCheckBox = (CheckBox) findViewById(R.id.DebCheckBox);
-        myDB.query("Subscription", new String[] {
+        myDB.query("Subscription", new String[]{
                 "*"
         }, null, null, null, null, null);
         if (c.moveToFirst()) {
             do {
                 Log.i("status", String.valueOf(c.getInt(1)));
                 switch (c.getString(0)) {
-                    case "Debitor":
-                    {
+                    case "Debitor": {
                         if (c.getInt(1) == 1) {
                             DebCheckBox.setChecked(true);
                         }
                         break;
                     }
-                    case "Kreditor":
-                    {
+                    case "Kreditor": {
                         break;
                     }
                 }

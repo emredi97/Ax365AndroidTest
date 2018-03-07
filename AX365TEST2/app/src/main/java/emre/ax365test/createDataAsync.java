@@ -44,7 +44,7 @@ public class createDataAsync extends AsyncTask<String, String, JSONArray> {
 
         try {
 
-            URL = new URL(Constants.RESOURCE_ID+"/data/DocumentTypes");
+            URL = new URL(Constants.RESOURCE_ID + "/data/DocumentTypes");
 
 
             JSONObject object = new JSONObject();
@@ -64,7 +64,7 @@ public class createDataAsync extends AsyncTask<String, String, JSONArray> {
             connection.setRequestProperty("Authorization", "Bearer " + Constants.CURRENT_RESULT.getAccessToken());
             // Connection2.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Content-Type", "application/json;odata.metadata=minimal");
-           // connection.setRequestProperty("Host", "rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com");
+            // connection.setRequestProperty("Host", "rdagdmo0173a91cbdf4ee46d3aos.cloudax.dynamics.com");
             connection.setRequestProperty("Accept", "application/json;odata.metadata=minimal");
             connection.setRequestProperty("Accept-Charset", "UTF-8");
             connection.setRequestProperty("OData-Version", "4.0");

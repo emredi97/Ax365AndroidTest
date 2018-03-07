@@ -82,13 +82,6 @@
 
     </LinearLayout>
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="168dp"
-        android:layout_height="171dp"
-        android:progressDrawable="@drawable/circular_progress_bar"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="324dp" />
+
 
 </android.support.constraint.ConstraintLayout>
